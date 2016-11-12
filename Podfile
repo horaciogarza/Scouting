@@ -8,6 +8,8 @@ target 'ScoutsBook' do
   # Pods for ScoutsBook
 
   pod 'AWSS3'
+  pod 'AWSDynamoDB'
+  pod 'FCAlertView'
 
 end
 

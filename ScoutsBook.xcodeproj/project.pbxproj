@@ -12,6 +12,8 @@
 		47F1CF211DD791AC0067121E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47F1CF1F1DD791AC0067121E /* Main.storyboard */; };
 		47F1CF231DD791AC0067121E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47F1CF221DD791AC0067121E /* Assets.xcassets */; };
 		47F1CF261DD791AC0067121E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47F1CF241DD791AC0067121E /* LaunchScreen.storyboard */; };
+		8E68FE931DD7986E0077006F /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E68FE921DD7986E0077006F /* User.swift */; };
+		8E68FE951DD79B740077006F /* Recents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E68FE941DD79B740077006F /* Recents.swift */; };
 		E6977225EAB3D201399237F9 /* Pods_ScoutsBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8312B15E34D046FFEAACC4BD /* Pods_ScoutsBook.framework */; };
 /* End PBXBuildFile section */
 
@@ -26,6 +28,8 @@
 		47F1CF271DD791AC0067121E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6C7086474BB9F4EFF77F42DB /* Pods-ScoutsBook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScoutsBook.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ScoutsBook/Pods-ScoutsBook.debug.xcconfig"; sourceTree = "<group>"; };
 		8312B15E34D046FFEAACC4BD /* Pods_ScoutsBook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ScoutsBook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E68FE921DD7986E0077006F /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		8E68FE941DD79B740077006F /* Recents.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Recents.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,7 @@
 		47F1CF1A1DD791AC0067121E /* ScoutsBook */ = {
 			isa = PBXGroup;
 			children = (
+				8E68FE911DD798380077006F /* Models */,
 				47F1CF1B1DD791AC0067121E /* AppDelegate.swift */,
 				47F1CF2D1DD795E60067121E /* ViewControllers */,
 				47F1CF2E1DD795EF0067121E /* Storyboards */,
@@ -94,6 +99,15 @@
 				0F9B267C348904BBFCC2154F /* Pods-ScoutsBook.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		8E68FE911DD798380077006F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8E68FE921DD7986E0077006F /* User.swift */,
+				8E68FE941DD79B740077006F /* Recents.swift */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 		B0D26CD2F6201EC18871C48E /* Frameworks */ = {
@@ -228,8 +242,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E68FE951DD79B740077006F /* Recents.swift in Sources */,
 				47F1CF1E1DD791AC0067121E /* ViewController.swift in Sources */,
 				47F1CF1C1DD791AC0067121E /* AppDelegate.swift in Sources */,
+				8E68FE931DD7986E0077006F /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

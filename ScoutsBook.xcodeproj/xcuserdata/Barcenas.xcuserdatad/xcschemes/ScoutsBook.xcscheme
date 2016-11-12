@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0700"
+   LastUpgradeVersion = "0810"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,14 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-<<<<<<< HEAD
-               BlueprintIdentifier = "22C465AF3A672FEC283CFE5D39CE5B79"
-=======
-               BlueprintIdentifier = "2A0F79E966964246DF0A1A79F9F2DA3B"
->>>>>>> d0e1304731c008a08cd08bd32e0c19d00840179e
-               BuildableName = "Pods_ScoutsBook.framework"
-               BlueprintName = "Pods-ScoutsBook"
-               ReferencedContainer = "container:Pods.xcodeproj">
+               BlueprintIdentifier = "47F1CF171DD791AC0067121E"
+               BuildableName = "ScoutsBook.app"
+               BlueprintName = "ScoutsBook"
+               ReferencedContainer = "container:ScoutsBook.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,6 +29,15 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "47F1CF171DD791AC0067121E"
+            BuildableName = "ScoutsBook.app"
+            BlueprintName = "ScoutsBook"
+            ReferencedContainer = "container:ScoutsBook.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -46,19 +51,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <MacroExpansion>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-<<<<<<< HEAD
-            BlueprintIdentifier = "22C465AF3A672FEC283CFE5D39CE5B79"
-=======
-            BlueprintIdentifier = "2A0F79E966964246DF0A1A79F9F2DA3B"
->>>>>>> d0e1304731c008a08cd08bd32e0c19d00840179e
-            BuildableName = "Pods_ScoutsBook.framework"
-            BlueprintName = "Pods-ScoutsBook"
-            ReferencedContainer = "container:Pods.xcodeproj">
+            BlueprintIdentifier = "47F1CF171DD791AC0067121E"
+            BuildableName = "ScoutsBook.app"
+            BlueprintName = "ScoutsBook"
+            ReferencedContainer = "container:ScoutsBook.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -68,6 +70,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "47F1CF171DD791AC0067121E"
+            BuildableName = "ScoutsBook.app"
+            BlueprintName = "ScoutsBook"
+            ReferencedContainer = "container:ScoutsBook.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
