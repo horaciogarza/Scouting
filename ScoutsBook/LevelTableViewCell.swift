@@ -7,9 +7,13 @@
 //
 
 import UIKit
+import GTProgressBar
 
 class LevelTableViewCell: UITableViewCell {
-
+    
+    @IBOutlet var levelProgressBar: GTProgressBar!
+    @IBOutlet var levelImage: UIImageView!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
