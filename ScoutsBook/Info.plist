@@ -6,6 +6,10 @@
 	<string>en</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
+	<key>NSCameraUsageDescription</key>
+	<string>ScoutBook needs access to your camara</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>ScoutBook needs access to your photos in order to save the photo</string>
 	<key>CFBundleIdentifier</key>
 	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
 	<key>CFBundleInfoDictionaryVersion</key>
