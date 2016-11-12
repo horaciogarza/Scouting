@@ -10,6 +10,8 @@ import Foundation
 
 class User {
     let UserPin : Int
+    let Email : String
+    let Password : String
     let Name : String
     let ProfilePicture : String?
     let Level : Int
@@ -18,8 +20,10 @@ class User {
     let LastLogin : String?
     
     
-    init(UserPin: Int, Name: String, Level: Int, CreationDate : String) {
+    init(UserPin: Int, Email: String, Password: String, Name: String, Level: Int, CreationDate : String) {
         self.UserPin = UserPin
+        self.Email = Email
+        self.Password = Password
         self.Name = Name
         self.ProfilePicture = nil
         self.Level = 0
