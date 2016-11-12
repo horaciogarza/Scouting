@@ -28,7 +28,12 @@ class LevelViewController: UIViewController, UITableViewDataSource {
     
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = UITableViewCell()
+        let cell = tableView.dequeueReusableCell(withIdentifier: "LevelCell", for: indexPath) as! LevelTableViewCell
+        cell.levelImage = UIImageView(image: #imageLiteral(resourceName: "Image"))
+        //cell.levelProgressBar.progress = CGFloat(Double(0.7))
+        
+        
+        
         
         return cell
     }
