@@ -46,6 +46,8 @@
 		4791957D1DD7BA6E00DA1C97 /* TextToSpeechV1.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4791955D1DD7BA4300DA1C97 /* TextToSpeechV1.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		4791957E1DD7BA6E00DA1C97 /* AlchemyDataNewsV1.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4791955E1DD7BA4300DA1C97 /* AlchemyDataNewsV1.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		4791957F1DD7BA6E00DA1C97 /* SpeechToTextV1.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4791955F1DD7BA4300DA1C97 /* SpeechToTextV1.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		479195811DD7C06400DA1C97 /* CamaraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479195801DD7C06400DA1C97 /* CamaraViewController.swift */; };
+		479195831DD7C09300DA1C97 /* camara.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 479195821DD7C09300DA1C97 /* camara.storyboard */; };
 		47F1CF1C1DD791AC0067121E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F1CF1B1DD791AC0067121E /* AppDelegate.swift */; };
 		47F1CF1E1DD791AC0067121E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F1CF1D1DD791AC0067121E /* ViewController.swift */; };
 		47F1CF211DD791AC0067121E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47F1CF1F1DD791AC0067121E /* Main.storyboard */; };
@@ -111,6 +113,8 @@
 		4791955D1DD7BA4300DA1C97 /* TextToSpeechV1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TextToSpeechV1.framework; path = Carthage/Build/iOS/TextToSpeechV1.framework; sourceTree = "<group>"; };
 		4791955E1DD7BA4300DA1C97 /* AlchemyDataNewsV1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlchemyDataNewsV1.framework; path = Carthage/Build/iOS/AlchemyDataNewsV1.framework; sourceTree = "<group>"; };
 		4791955F1DD7BA4300DA1C97 /* SpeechToTextV1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpeechToTextV1.framework; path = Carthage/Build/iOS/SpeechToTextV1.framework; sourceTree = "<group>"; };
+		479195801DD7C06400DA1C97 /* CamaraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CamaraViewController.swift; sourceTree = "<group>"; };
+		479195821DD7C09300DA1C97 /* camara.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = camara.storyboard; sourceTree = "<group>"; };
 		47F1CF181DD791AC0067121E /* ScoutsBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScoutsBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		47F1CF1B1DD791AC0067121E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		47F1CF1D1DD791AC0067121E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -201,6 +205,7 @@
 				479195431DD7AD1B00DA1C97 /* TasksTableViewController.swift */,
 				4791953D1DD7ACCF00DA1C97 /* LevelTableViewCell.swift */,
 				47F1CF1D1DD791AC0067121E /* ViewController.swift */,
+				479195801DD7C06400DA1C97 /* CamaraViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -210,6 +215,7 @@
 			children = (
 				47F1CF1F1DD791AC0067121E /* Main.storyboard */,
 				47F1CF241DD791AC0067121E /* LaunchScreen.storyboard */,
+				479195821DD7C09300DA1C97 /* camara.storyboard */,
 			);
 			name = Storyboards;
 			sourceTree = "<group>";
@@ -330,6 +336,7 @@
 				47F1CF231DD791AC0067121E /* Assets.xcassets in Resources */,
 				479195461DD7AD2100DA1C97 /* LevelTableViewCell.xib in Resources */,
 				47F1CF211DD791AC0067121E /* Main.storyboard in Resources */,
+				479195831DD7C09300DA1C97 /* camara.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,6 +398,7 @@
 				8E68FE951DD79B740077006F /* Recents.swift in Sources */,
 				4791953E1DD7ACCF00DA1C97 /* LevelTableViewCell.swift in Sources */,
 				47F1CF1E1DD791AC0067121E /* ViewController.swift in Sources */,
+				479195811DD7C06400DA1C97 /* CamaraViewController.swift in Sources */,
 				47F1CF1C1DD791AC0067121E /* AppDelegate.swift in Sources */,
 				479195441DD7AD1B00DA1C97 /* TasksTableViewController.swift in Sources */,
 				8E68FE931DD7986E0077006F /* User.swift in Sources */,
