@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0810"
+   LastUpgradeVersion = "0800"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2A0F79E966964246DF0A1A79F9F2DA3B"
-               BuildableName = "Pods_ScoutsBook.framework"
-               BlueprintName = "Pods-ScoutsBook"
-               ReferencedContainer = "container:Pods.xcodeproj">
+               BlueprintIdentifier = "7A987D131D19D424003626B2"
+               BuildableName = "TradeoffAnalyticsV1.framework"
+               BlueprintName = "TradeoffAnalyticsV1"
+               ReferencedContainer = "container:WatsonDeveloperCloud.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -28,7 +28,26 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "7A987D1C1D19D424003626B2"
+               BuildableName = "TradeoffAnalyticsV1Tests.xctest"
+               BlueprintName = "TradeoffAnalyticsV1Tests"
+               ReferencedContainer = "container:WatsonDeveloperCloud.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "7A987D131D19D424003626B2"
+            BuildableName = "TradeoffAnalyticsV1.framework"
+            BlueprintName = "TradeoffAnalyticsV1"
+            ReferencedContainer = "container:WatsonDeveloperCloud.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -45,10 +64,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2A0F79E966964246DF0A1A79F9F2DA3B"
-            BuildableName = "Pods_ScoutsBook.framework"
-            BlueprintName = "Pods-ScoutsBook"
-            ReferencedContainer = "container:Pods.xcodeproj">
+            BlueprintIdentifier = "7A987D131D19D424003626B2"
+            BuildableName = "TradeoffAnalyticsV1.framework"
+            BlueprintName = "TradeoffAnalyticsV1"
+            ReferencedContainer = "container:WatsonDeveloperCloud.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -63,10 +82,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2A0F79E966964246DF0A1A79F9F2DA3B"
-            BuildableName = "Pods_ScoutsBook.framework"
-            BlueprintName = "Pods-ScoutsBook"
-            ReferencedContainer = "container:Pods.xcodeproj">
+            BlueprintIdentifier = "7A987D131D19D424003626B2"
+            BuildableName = "TradeoffAnalyticsV1.framework"
+            BlueprintName = "TradeoffAnalyticsV1"
+            ReferencedContainer = "container:WatsonDeveloperCloud.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>
