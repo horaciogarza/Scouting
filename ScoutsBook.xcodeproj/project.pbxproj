@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		479195381DD7AB0600DA1C97 /* VisualRecognitionV3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 479195371DD7AB0600DA1C97 /* VisualRecognitionV3.framework */; };
+		4791953A1DD7AB7200DA1C97 /* ChameleonFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 479195391DD7AB7200DA1C97 /* ChameleonFramework.framework */; };
 		47F1CF1C1DD791AC0067121E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F1CF1B1DD791AC0067121E /* AppDelegate.swift */; };
 		47F1CF1E1DD791AC0067121E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F1CF1D1DD791AC0067121E /* ViewController.swift */; };
 		47F1CF211DD791AC0067121E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47F1CF1F1DD791AC0067121E /* Main.storyboard */; };
@@ -21,6 +22,7 @@
 /* Begin PBXFileReference section */
 		0F9B267C348904BBFCC2154F /* Pods-ScoutsBook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScoutsBook.release.xcconfig"; path = "Pods/Target Support Files/Pods-ScoutsBook/Pods-ScoutsBook.release.xcconfig"; sourceTree = "<group>"; };
 		479195371DD7AB0600DA1C97 /* VisualRecognitionV3.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VisualRecognitionV3.framework; path = Carthage/Build/iOS/VisualRecognitionV3.framework; sourceTree = "<group>"; };
+		479195391DD7AB7200DA1C97 /* ChameleonFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ChameleonFramework.framework; path = "Pods/../build/Debug-iphoneos/ChameleonFramework/ChameleonFramework.framework"; sourceTree = "<group>"; };
 		47F1CF181DD791AC0067121E /* ScoutsBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScoutsBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		47F1CF1B1DD791AC0067121E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		47F1CF1D1DD791AC0067121E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -39,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4791953A1DD7AB7200DA1C97 /* ChameleonFramework.framework in Frameworks */,
 				479195381DD7AB0600DA1C97 /* VisualRecognitionV3.framework in Frameworks */,
 				E6977225EAB3D201399237F9 /* Pods_ScoutsBook.framework in Frameworks */,
 			);
@@ -116,6 +119,7 @@
 		B0D26CD2F6201EC18871C48E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				479195391DD7AB7200DA1C97 /* ChameleonFramework.framework */,
 				479195371DD7AB0600DA1C97 /* VisualRecognitionV3.framework */,
 				8312B15E34D046FFEAACC4BD /* Pods_ScoutsBook.framework */,
 			);
@@ -158,6 +162,7 @@
 					47F1CF171DD791AC0067121E = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = SYGB8AL676;
+						LastSwiftMigration = 0810;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -321,6 +326,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = "";
 			};
 			name = Debug;
 		};
@@ -362,6 +368,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = "";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -375,6 +382,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/ChameleonFramework",
 				);
 				INFOPLIST_FILE = ScoutsBook/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -393,6 +401,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/ChameleonFramework",
 				);
 				INFOPLIST_FILE = ScoutsBook/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
