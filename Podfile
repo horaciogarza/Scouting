@@ -10,7 +10,9 @@ target 'ScoutsBook' do
   pod 'AWSS3'
   pod 'AWSDynamoDB'
   pod 'FCAlertView'
-  pod 'ChameleonFramework/Swift', :git => 'https://github.com/ViccAlexander/Chameleon.git'
+  # pod 'ChameleonFramework/Swift', :git => 'https://github.com/ViccAlexander/Chameleon.git'
+  pod 'GTProgressBar'
+  
 
 end
 

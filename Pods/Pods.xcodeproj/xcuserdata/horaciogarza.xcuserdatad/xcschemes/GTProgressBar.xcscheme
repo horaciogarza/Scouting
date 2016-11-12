@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '5172ACAB7FEA22813859DC97CA0AA16F'
-               BlueprintName = 'ChameleonFramework'
+               BlueprintIdentifier = '706C0E7FDDF71A4AB36B4AC4D6BC80F9'
+               BlueprintName = 'GTProgressBar'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'ChameleonFramework.framework'>
+               BuildableName = 'GTProgressBar.framework'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
