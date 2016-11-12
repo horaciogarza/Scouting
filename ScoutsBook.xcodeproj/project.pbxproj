@@ -303,7 +303,7 @@
 				TargetAttributes = {
 					47F1CF171DD791AC0067121E = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = SYGB8AL676;
+						DevelopmentTeam = E5F4JMN6W8;
 						LastSwiftMigration = 0810;
 						ProvisioningStyle = Automatic;
 					};
@@ -525,7 +525,7 @@
 			baseConfigurationReference = 6C7086474BB9F4EFF77F42DB /* Pods-ScoutsBook.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = SYGB8AL676;
+				DEVELOPMENT_TEAM = E5F4JMN6W8;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
@@ -534,7 +534,7 @@
 				);
 				INFOPLIST_FILE = ScoutsBook/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.Appdromeda.ScoutsBook;
+				PRODUCT_BUNDLE_IDENTIFIER = com.barcenas.ScoutsBook;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -545,7 +545,7 @@
 			baseConfigurationReference = 0F9B267C348904BBFCC2154F /* Pods-ScoutsBook.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = SYGB8AL676;
+				DEVELOPMENT_TEAM = E5F4JMN6W8;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
@@ -554,7 +554,7 @@
 				);
 				INFOPLIST_FILE = ScoutsBook/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.Appdromeda.ScoutsBook;
+				PRODUCT_BUNDLE_IDENTIFIER = com.barcenas.ScoutsBook;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};

@@ -29,6 +29,11 @@
 			<key>orderHint</key>
 			<integer>5</integer>
 		</dict>
+		<key>GTProgressBar.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>7</integer>
+		</dict>
 		<key>Pods-ScoutsBook.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -37,6 +42,11 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>001F9C2D574B14AE74226E2EFE28C09A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>0C81C802D8F6AEBCA97D9E63AE95D76E</key>
 		<dict>
 			<key>primary</key>
@@ -58,6 +68,11 @@
 			<true/>
 		</dict>
 		<key>2DB2440E9FA2A7EDF63907320807D8AD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>706C0E7FDDF71A4AB36B4AC4D6BC80F9</key>
 		<dict>
 			<key>primary</key>
 			<true/>
