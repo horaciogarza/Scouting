@@ -14,11 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-<<<<<<< HEAD
-               BlueprintIdentifier = "22C465AF3A672FEC283CFE5D39CE5B79"
-=======
-               BlueprintIdentifier = "2A0F79E966964246DF0A1A79F9F2DA3B"
->>>>>>> d0e1304731c008a08cd08bd32e0c19d00840179e
+               BlueprintIdentifier = "001F9C2D574B14AE74226E2EFE28C09A"
                BuildableName = "Pods_ScoutsBook.framework"
                BlueprintName = "Pods-ScoutsBook"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -49,11 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-<<<<<<< HEAD
-            BlueprintIdentifier = "22C465AF3A672FEC283CFE5D39CE5B79"
-=======
-            BlueprintIdentifier = "2A0F79E966964246DF0A1A79F9F2DA3B"
->>>>>>> d0e1304731c008a08cd08bd32e0c19d00840179e
+            BlueprintIdentifier = "001F9C2D574B14AE74226E2EFE28C09A"
             BuildableName = "Pods_ScoutsBook.framework"
             BlueprintName = "Pods-ScoutsBook"
             ReferencedContainer = "container:Pods.xcodeproj">

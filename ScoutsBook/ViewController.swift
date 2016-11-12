@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import VisualRecognitionV3
+
 
 class ViewController: UIViewController {
 

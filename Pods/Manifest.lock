@@ -5,18 +5,21 @@ PODS:
   - AWSS3 (2.4.12):
     - AWSCore (= 2.4.12)
   - FCAlertView (1.2.5)
+  - GTProgressBar (0.1.0)
 
 DEPENDENCIES:
   - AWSDynamoDB
   - AWSS3
   - FCAlertView
+  - GTProgressBar
 
 SPEC CHECKSUMS:
   AWSCore: 8ee5b1dc06a0fd562429fe7120113ca93cbfbca6
   AWSDynamoDB: f78e38016afa783c9c3d7d0f1c33c8c283eee8d9
   AWSS3: 7bb3e095a37ed8334a0b868bbca74ab574b37a4f
   FCAlertView: 7c6ed3587b6e819b8efc268998fb1fbb3eabcd0e
+  GTProgressBar: e72edfa42942aa8a19eaedc56b9a9d7ee9240123
 
-PODFILE CHECKSUM: 24bb1bd5fc8ba2e7456afb2ea53ad94d6b6ded28
+PODFILE CHECKSUM: f4756d3a2a93b2e2b74cc913cb5b4d816e7c5e57
 
 COCOAPODS: 1.0.1
