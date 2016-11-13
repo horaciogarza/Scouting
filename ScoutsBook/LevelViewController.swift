@@ -13,9 +13,9 @@ import UIKit
 
 class LevelViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
 
-    let arrayLevels:[Level] = [Level(levelImage: UIImageView(),isEnabled: true),
-                               Level(levelImage: UIImageView(),isEnabled: false),
-                                Level(levelImage: UIImageView(),isEnabled: false)]
+    let arrayLevels:[Level] = [Level(levelImage: UIImageView(),isEnabled: true, numberLevelProgress: 0.5),
+                               Level(levelImage: UIImageView(),isEnabled: false, numberLevelProgress: 0.0),
+                                Level(levelImage: UIImageView(),isEnabled: false, numberLevelProgress: 0.0)]
     
     
     @IBOutlet var tableView: UITableView!
@@ -48,9 +48,7 @@ class LevelViewController: UIViewController, UITableViewDataSource, UITableViewD
         cell.levelImage = arrayLevels[indexPath.row].levelImage
         
         if(arrayLevels[indexPath.row].isEnabled){
-            cell.progress = .Mid
-        }else{
-            cell.progress = .Low
+            cell.numberLevelProgress = arrayLevels[indexPath.row].numberLevelProgress
         }
         
         
