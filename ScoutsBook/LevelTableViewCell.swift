@@ -20,14 +20,11 @@ class LevelTableViewCell: UITableViewCell {
     
     
     @IBOutlet var levelImage: UIImageView!
-    var numberLevelProgress: Float!
-    var progress: ProgressLevel
+    var numberLevelProgress: Float = 0.0
     
     
-    required init?(coder aDecoder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
-    }
     
+   
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -35,16 +32,7 @@ class LevelTableViewCell: UITableViewCell {
         
         var progressBar = GTProgressBar(frame: CGRect(x: 5, y: self.layer.bounds.height - 5, width: 360, height: 15))
         
-        switch progress {
-        case .Low:
-            numberLevelProgress = 0.0
-        case .Mid:
-            numberLevelProgress = 0.5
-        case .Complete:
-            numberLevelProgress = 1
-        default:
-            numberLevelProgress = 0.0
-        }
+        
         progressBar.progress = CGFloat(self.numberLevelProgress)
         progressBar.barBorderColor = UIColor(red:0.35, green:0.80, blue:0.36, alpha:1.0)
         progressBar.barFillColor = UIColor(red:0.35, green:0.80, blue:0.36, alpha:1.0)
@@ -59,6 +47,10 @@ class LevelTableViewCell: UITableViewCell {
         
         self.addSubview(progressBar)
         
+    }
+    
+    override func awakeAfter(using aDecoder: NSCoder) -> Any? {
+        <#code#>
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {

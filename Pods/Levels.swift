@@ -13,4 +13,5 @@ import UIKit
 struct Level {
     var levelImage:UIImageView
     var isEnabled:Bool
+    var numberLevelProgress:Float
 }
