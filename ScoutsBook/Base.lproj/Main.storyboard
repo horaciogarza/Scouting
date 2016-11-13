@@ -14,7 +14,7 @@
             <objects>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GLs-1C-5mA" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController id="ABR-V2-MIu" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="wmO-KV-Bq9">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="wmO-KV-Bq9">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -73,7 +73,7 @@
             </objects>
             <point key="canvasLocation" x="484" y="-116"/>
         </scene>
-        <!--View Controller-->
+        <!--favorites-->
         <scene sceneID="pfS-dJ-RMe">
             <objects>
                 <viewController id="hG8-8u-VZP" sceneMemberID="viewController">
@@ -86,7 +86,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" systemItem="featured" id="Qxp-TZ-CIF"/>
+                    <tabBarItem key="tabBarItem" title="favorites" image="Heart_flag" id="is8-dL-gfn"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EQp-go-f9k" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -126,7 +126,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" systemItem="search" id="B7h-mt-pm8"/>
+                    <tabBarItem key="tabBarItem" title="" image="test" id="te2-ox-YSV"/>
                     <navigationItem key="navigationItem" title="Level" id="iUC-dI-AEo"/>
                     <connections>
                         <outlet property="tableView" destination="xa7-N8-xyn" id="1cb-KZ-ztn"/>
@@ -156,6 +156,16 @@
             </objects>
             <point key="canvasLocation" x="2358" y="481"/>
         </scene>
+        <!--UserProfileController-->
+        <scene sceneID="PKP-5c-Gc5">
+            <objects>
+                <viewControllerPlaceholder storyboardName="userProfile" referencedIdentifier="UserProfileController" id="jcT-J1-dKE" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="L4Q-Nm-VLe"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cGD-bZ-kfu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1337" y="-666"/>
+        </scene>
         <!--View Controller-->
         <scene sceneID="Oxf-CQ-XVi">
             <objects>
@@ -175,10 +185,10 @@
             </objects>
             <point key="canvasLocation" x="2358" y="-860"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--Main Tab Bar Controller-->
         <scene sceneID="jm1-TG-PVH">
             <objects>
-                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="Uxe-EI-Ltj" sceneMemberID="viewController">
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="Uxe-EI-Ltj" customClass="MainTabBarController" customModule="ScoutsBook" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="eS2-V0-RE0"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="Bg9-En-XWM">
@@ -188,9 +198,10 @@
                     </tabBar>
                     <connections>
                         <segue destination="Z8y-4l-Pwa" kind="relationship" relationship="viewControllers" id="OE2-On-cZj"/>
+                        <segue destination="qih-at-kCR" kind="relationship" relationship="viewControllers" id="tnm-f3-rLe"/>
                         <segue destination="hG8-8u-VZP" kind="relationship" relationship="viewControllers" id="IUI-gR-43m"/>
                         <segue destination="uho-GW-n8W" kind="relationship" relationship="viewControllers" id="7nC-lw-v99"/>
-                        <segue destination="qih-at-kCR" kind="relationship" relationship="viewControllers" id="tnm-f3-rLe"/>
+                        <segue destination="jcT-J1-dKE" kind="relationship" relationship="viewControllers" id="hUW-nE-KKJ"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ud5-2X-MIH" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -199,7 +210,9 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Heart_flag" width="37" height="37"/>
         <image name="heart.png" width="512" height="512"/>
+        <image name="test" width="25" height="25"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="eFj-Jc-S1N"/>

@@ -22,7 +22,7 @@ class LevelViewController: UIViewController, UITableViewDataSource, UITableViewD
     @IBOutlet var tableView: UITableView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.navigationController?.navigationBar.topItem?.title = "Level"
+        
         
             
         
@@ -34,7 +34,8 @@ class LevelViewController: UIViewController, UITableViewDataSource, UITableViewD
     }
     
     override func viewWillAppear(_ animated: Bool) {
-        tableView.reloadData()
+        self.navigationController?.navigationBar.topItem?.title = "Level"
+        
     }
     
 

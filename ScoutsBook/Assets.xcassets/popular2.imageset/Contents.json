@@ -6,7 +6,7 @@
     },
     {
       "idiom" : "universal",
-      "filename" : "12208495_10102454385528521_4749095086285673716_n.jpg",
+      "filename" : "popular2.jpg",
       "scale" : "2x"
     },
     {
@@ -17,5 +17,8 @@
   "info" : {
     "version" : 1,
     "author" : "xcode"
+  },
+  "properties" : {
+    "template-rendering-intent" : "original"
   }
 }
