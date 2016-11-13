@@ -114,7 +114,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="" systemItem="mostViewed" id="te2-ox-YSV"/>
+                    <tabBarItem key="tabBarItem" title="" selectedImage="02-levels" id="te2-ox-YSV"/>
                     <navigationItem key="navigationItem" title="Level" id="iUC-dI-AEo"/>
                     <connections>
                         <outlet property="tableView" destination="xa7-N8-xyn" id="1cb-KZ-ztn"/>
@@ -143,7 +143,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" systemItem="bookmarks" id="kRP-xk-FtL"/>
+                    <tabBarItem key="tabBarItem" selectedImage="02-HISTORIA" id="kRP-xk-FtL"/>
                     <navigationItem key="navigationItem" title="Title" id="C8D-oJ-88M"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uZ1-9j-y4A" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -206,6 +206,7 @@
     <resources>
         <image name="01-PERFIL" width="1242" height="428"/>
         <image name="02-HISTORIA" width="1242" height="428"/>
+        <image name="02-levels" width="75" height="75"/>
         <image name="04-Leves" width="1242" height="428"/>
         <image name="heart.png" width="512" height="512"/>
     </resources>
