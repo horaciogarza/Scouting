@@ -71,6 +71,7 @@
 		8E68FE9F1DD80A6B0077006F /* userProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E68FE9E1DD80A6B0077006F /* userProfileViewController.swift */; };
 		8E68FECC1DD8B0B50077006F /* Record.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E68FECB1DD8B0B50077006F /* Record.storyboard */; };
 		8E68FECE1DD8B16D0077006F /* RecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E68FECD1DD8B16D0077006F /* RecordViewController.swift */; };
+		8E68FED41DD8CC340077006F /* RecordCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E68FED31DD8CC340077006F /* RecordCell.swift */; };
 		E6977225EAB3D201399237F9 /* Pods_ScoutsBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8312B15E34D046FFEAACC4BD /* Pods_ScoutsBook.framework */; };
 /* End PBXBuildFile section */
 
@@ -161,6 +162,7 @@
 		8E68FE9E1DD80A6B0077006F /* userProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = userProfileViewController.swift; sourceTree = "<group>"; };
 		8E68FECB1DD8B0B50077006F /* Record.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Record.storyboard; sourceTree = "<group>"; };
 		8E68FECD1DD8B16D0077006F /* RecordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordViewController.swift; sourceTree = "<group>"; };
+		8E68FED31DD8CC340077006F /* RecordCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -208,6 +210,7 @@
 		479195471DD7AD2400DA1C97 /* XIBS */ = {
 			isa = PBXGroup;
 			children = (
+				8E68FED31DD8CC340077006F /* RecordCell.swift */,
 				4791953D1DD7ACCF00DA1C97 /* LevelTableViewCell.swift */,
 				479195451DD7AD2100DA1C97 /* LevelTableViewCell.xib */,
 			);
@@ -476,6 +479,7 @@
 				477ECDFB1DD8C351002EB54B /* TasksViewController.swift in Sources */,
 				47192DB71DD81CB800751F94 /* ProfileViewController.swift in Sources */,
 				47192DAF1DD7CB1400751F94 /* LevelViewController.swift in Sources */,
+				8E68FED41DD8CC340077006F /* RecordCell.swift in Sources */,
 				479195811DD7C06400DA1C97 /* CamaraViewController.swift in Sources */,
 				47F1CF1C1DD791AC0067121E /* AppDelegate.swift in Sources */,
 				8E68FE931DD7986E0077006F /* User.swift in Sources */,
