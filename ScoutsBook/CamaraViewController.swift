@@ -7,6 +7,7 @@
 //
 import UIKit
 import Photos
+import VisualRecognitionV3
 
 class CamaraViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
     
@@ -61,15 +62,36 @@ class CamaraViewController: UIViewController, UIImagePickerControllerDelegate, U
                 let lastImageAsset = fetchResult.firstObject! as PHAsset
                 lastImageAsset.requestContentEditingInput(with: PHContentEditingInputRequestOptions()) { (input, _) in
                     let url = input?.fullSizeImageURL
-                    print(url)
+                    self.sendWatsonRequest(url : url!)
                 }
-                print(lastImageAsset)
             }
-            dismiss(animated: true, completion: nil)
         }
     }
     
 
+    func sendWatsonRequest(url : URL){
+        
+        let apiKey = "e9b2d83b02a794c8c61219fd956725815d55110a"
+        let version = "2016-11-05" // use today's date for the most recent version
+        let visualRecognition = VisualRecognition(apiKey: apiKey, version: version)
+        
+        var results : String = "Resultados de la imagen\n\n"
+        visualRecognition.classify(image: url.description) { [unowned self] (classifiedImages) in
+            
+            
+            for classification in classifiedImages.images[0].classifiers[0].classes{
+                results = results + "Clasificacion: \(classification.classification) \n Probabilidad: \(classification.score) \n\n"
+            }
+            
+            print(results)
+            //dismiss(animated: true, completion: nil)
+            //lo cambias al main para que se pueda mostrar, si no truena.
+            DispatchQueue.main.async {
+                //self.textView.text = results
+            }
+            
+        }
+    }
     
     
     /*
