@@ -13,6 +13,7 @@ target 'ScoutsBook' do
     pod 'AlamofireImage', '~> 3.1'
     
     pod 'Firebase/Storage'
+    pod 'Firebase/Database'
     
   pod 'FCAlertView'
   # pod 'ChameleonFramework/Swift', :git => 'https://github.com/ViccAlexander/Chameleon.git'
