@@ -18,39 +18,24 @@
                 <rect key="frame" x="0.0" y="0.0" width="447" height="112"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kP4-ny-BH3">
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Image-2" translatesAutoresizingMaskIntoConstraints="NO" id="kP4-ny-BH3">
                         <rect key="frame" x="0.0" y="0.0" width="447" height="112"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     </imageView>
-                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KdQ-pW-MUj" customClass="GTProgressBar">
-                        <rect key="frame" x="16" y="83" width="408" height="21"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <userDefinedRuntimeAttributes>
-                            <userDefinedRuntimeAttribute type="color" keyPath="barBorderColor">
-                                <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            </userDefinedRuntimeAttribute>
-                            <userDefinedRuntimeAttribute type="color" keyPath="barBackgroundColor">
-                                <color key="value" red="0.27447596190000001" green="0.27452921870000002" blue="0.27447256450000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            </userDefinedRuntimeAttribute>
-                            <userDefinedRuntimeAttribute type="color" keyPath="barFillColor">
-                                <color key="value" red="0.95686274510000002" green="0.26274509800000001" blue="0.21176470589999999" alpha="1" colorSpace="calibratedRGB"/>
-                            </userDefinedRuntimeAttribute>
-                            <userDefinedRuntimeAttribute type="number" keyPath="progress">
-                                <real key="value" value="0.5"/>
-                            </userDefinedRuntimeAttribute>
-                            <userDefinedRuntimeAttribute type="color" keyPath="labelTextColor">
-                                <color key="value" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            </userDefinedRuntimeAttribute>
-                        </userDefinedRuntimeAttributes>
-                    </view>
                 </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="kP4-ny-BH3" secondAttribute="trailing" id="BEI-oW-6Tm"/>
+                    <constraint firstItem="kP4-ny-BH3" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="Bzr-uX-Fgu"/>
+                    <constraint firstAttribute="bottom" secondItem="kP4-ny-BH3" secondAttribute="bottom" id="cWj-pP-7TD"/>
+                    <constraint firstItem="kP4-ny-BH3" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="n7U-xm-lyZ"/>
+                </constraints>
             </tableViewCellContentView>
             <connections>
                 <outlet property="levelImage" destination="kP4-ny-BH3" id="kdy-aF-Iez"/>
-                <outlet property="levelProgressBar" destination="KdQ-pW-MUj" id="Lxk-Kd-hdP"/>
             </connections>
             <point key="canvasLocation" x="-29.5" y="88.5"/>
         </tableViewCell>
     </objects>
+    <resources>
+        <image name="Image-2" width="443" height="72"/>
+    </resources>
 </document>

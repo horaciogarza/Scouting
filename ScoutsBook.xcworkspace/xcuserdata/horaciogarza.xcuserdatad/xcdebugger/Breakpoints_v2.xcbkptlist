@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ScoutsBook/LevelViewController.swift"
-            timestampString = "500684574.605704"
+            timestampString = "500693348.411685"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "33"
-            endingLineNumber = "33"
+            startingLineNumber = "56"
+            endingLineNumber = "56"
             landmarkName = "tableView(_:cellForRowAt:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -26,12 +26,28 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ScoutsBook/LevelViewController.swift"
-            timestampString = "500684575.360055"
+            timestampString = "500693348.411685"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "32"
-            endingLineNumber = "32"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
             landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ScoutsBook/LevelTableViewCell.swift"
+            timestampString = "500693348.411685"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "awakeFromNib()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

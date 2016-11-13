@@ -8,14 +8,28 @@
 
 import UIKit
 
-class LevelViewController: UIViewController, UITableViewDataSource {
 
+
+
+class LevelViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
+
+    let arrayLevels:[Level] = [Level(levelImage: UIImageView(),isEnabled: true),
+                               Level(levelImage: UIImageView(),isEnabled: false),
+                                Level(levelImage: UIImageView(),isEnabled: false)]
+    
+    
+    @IBOutlet var tableView: UITableView!
     override func viewDidLoad() {
         super.viewDidLoad()
+        
 
         // Do any additional setup after loading the view.
+        tableView.register(UINib(nibName: "LevelTableViewCell", bundle: nil), forCellReuseIdentifier: "LevelCell")
     }
 
+    
+    
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -23,29 +37,31 @@ class LevelViewController: UIViewController, UITableViewDataSource {
     // MARK: - UITableViewDataSource
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 5
+        return arrayLevels.count
     }
     
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "LevelCell", for: indexPath) as! LevelTableViewCell
-        cell.levelImage = UIImageView(image: #imageLiteral(resourceName: "Image"))
-        //cell.levelProgressBar.progress = CGFloat(Double(0.7))
         
+        
+        let cell = tableView.dequeueReusableCell(withIdentifier: "LevelCell", for: indexPath) as! LevelTableViewCell
+        cell.levelImage = arrayLevels[indexPath.row].levelImage
+        
+        if(arrayLevels[indexPath.row].isEnabled){
+            cell.progress = .Mid
+        }else{
+            cell.progress = .Low
+        }
         
         
         
         return cell
     }
-//    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-//        let cell = tableView.dequeueReusableCellWithIdentifier("CustomCellOne", forIndexPath: indexPath) as! CustomOneCell
-//        
-//        cell.middleLabel.text = items[indexPath.row]
-//        cell.leftLabel.text = items[indexPath.row]
-//        cell.rightLabel.text = items[indexPath.row]
-//        
-//        return cell
-//    }
+    
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 128
+    }
+
 
     /*
     // MARK: - Navigation
