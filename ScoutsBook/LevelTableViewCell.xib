@@ -15,10 +15,10 @@
             <rect key="frame" x="0.0" y="0.0" width="447" height="113"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
-                <rect key="frame" x="0.0" y="0.0" width="447" height="112"/>
+                <rect key="frame" x="0.0" y="0.0" width="447" height="112.5"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Image-2" translatesAutoresizingMaskIntoConstraints="NO" id="kP4-ny-BH3">
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="kP4-ny-BH3">
                         <rect key="frame" x="0.0" y="0.0" width="447" height="112"/>
                     </imageView>
                 </subviews>
@@ -35,7 +35,4 @@
             <point key="canvasLocation" x="-29.5" y="88.5"/>
         </tableViewCell>
     </objects>
-    <resources>
-        <image name="Image-2" width="443" height="72"/>
-    </resources>
 </document>
