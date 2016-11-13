@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="ABR-V2-MIu">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Uxe-EI-Ltj">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -9,22 +9,6 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Navigation Controller-->
-        <scene sceneID="jsM-Hu-8eP">
-            <objects>
-                <navigationController id="ABR-V2-MIu" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="wmO-KV-Bq9">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <connections>
-                        <segue destination="Uxe-EI-Ltj" kind="relationship" relationship="rootViewController" id="eFj-Jc-S1N"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="GLs-1C-5mA" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="436" y="568"/>
-        </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
@@ -73,7 +57,7 @@
             </objects>
             <point key="canvasLocation" x="484" y="-116"/>
         </scene>
-        <!--favorites-->
+        <!--View Controller-->
         <scene sceneID="pfS-dJ-RMe">
             <objects>
                 <viewController id="hG8-8u-VZP" sceneMemberID="viewController">
@@ -86,7 +70,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="favorites" image="Heart_flag" id="is8-dL-gfn"/>
+                    <tabBarItem key="tabBarItem" selectedImage="01-PERFIL" systemItem="more" id="is8-dL-gfn"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EQp-go-f9k" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -105,9 +89,9 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="xa7-N8-xyn">
-                                <rect key="frame" x="0.0" y="64" width="375" height="554"/>
+                                <rect key="frame" x="0.0" y="101" width="375" height="517"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.2470588235" green="0.31764705879999999" blue="0.70980392160000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="LevelCell" id="H6b-GE-Sjb" customClass="LevelTableViewCell" customModule="ScoutsBook" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="44"/>
@@ -123,10 +107,14 @@
                                     <outlet property="delegate" destination="uho-GW-n8W" id="ii5-Lr-Hcd"/>
                                 </connections>
                             </tableView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="04-Leves" translatesAutoresizingMaskIntoConstraints="NO" id="5fy-2Y-DSw">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="136"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="" image="test" id="te2-ox-YSV"/>
+                    <tabBarItem key="tabBarItem" title="" systemItem="mostViewed" id="te2-ox-YSV"/>
                     <navigationItem key="navigationItem" title="Level" id="iUC-dI-AEo"/>
                     <connections>
                         <outlet property="tableView" destination="xa7-N8-xyn" id="1cb-KZ-ztn"/>
@@ -134,7 +122,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RKG-qB-YiM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1420" y="784"/>
+            <point key="canvasLocation" x="1420" y="783.95802098950526"/>
         </scene>
         <!--Title-->
         <scene sceneID="mcy-gw-iSM">
@@ -147,6 +135,12 @@
                     <view key="view" contentMode="scaleToFill" id="jI3-Na-Lac">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="02-HISTORIA" translatesAutoresizingMaskIntoConstraints="NO" id="qTb-Og-d21">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="136"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" systemItem="bookmarks" id="kRP-xk-FtL"/>
@@ -154,7 +148,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uZ1-9j-y4A" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2358" y="481"/>
+            <point key="canvasLocation" x="2357.5999999999999" y="480.80959520239884"/>
         </scene>
         <!--UserProfileController-->
         <scene sceneID="PKP-5c-Gc5">
@@ -197,11 +191,11 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
                     <connections>
+                        <segue destination="jcT-J1-dKE" kind="relationship" relationship="viewControllers" id="hUW-nE-KKJ"/>
                         <segue destination="Z8y-4l-Pwa" kind="relationship" relationship="viewControllers" id="OE2-On-cZj"/>
                         <segue destination="qih-at-kCR" kind="relationship" relationship="viewControllers" id="tnm-f3-rLe"/>
                         <segue destination="hG8-8u-VZP" kind="relationship" relationship="viewControllers" id="IUI-gR-43m"/>
                         <segue destination="uho-GW-n8W" kind="relationship" relationship="viewControllers" id="7nC-lw-v99"/>
-                        <segue destination="jcT-J1-dKE" kind="relationship" relationship="viewControllers" id="hUW-nE-KKJ"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ud5-2X-MIH" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -210,11 +204,9 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Heart_flag" width="37" height="37"/>
+        <image name="01-PERFIL" width="1242" height="428"/>
+        <image name="02-HISTORIA" width="1242" height="428"/>
+        <image name="04-Leves" width="1242" height="428"/>
         <image name="heart.png" width="512" height="512"/>
-        <image name="test" width="25" height="25"/>
     </resources>
-    <inferredMetricsTieBreakers>
-        <segue reference="eFj-Jc-S1N"/>
-    </inferredMetricsTieBreakers>
 </document>

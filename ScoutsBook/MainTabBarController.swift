@@ -10,14 +10,24 @@ import UIKit
 import VisualRecognitionV3
 import Alamofire
 import FirebaseStorage
+import FCAlertView
 
-class MainTabBarController: UITabBarController {
+class MainTabBarController: UITabBarController, FCAlertViewDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         
+        let alert = FCAlertView();
         
+        alert.delegate = self
+        
+        alert.showAlert(inView: self,
+                        withTitle:"Welcome Back!",
+                        withSubtitle:"Is nice to see you back",
+                        withCustomImage:nil,
+                        withDoneButtonTitle:nil,
+                        andButtons:["Button 1", "Button 2"]) // Set your button titles here
         
         //self.imageInsets = UIEdgeInsets(top: 9, left: 0, bottom: -9, right: 0)
         

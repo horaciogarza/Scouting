@@ -14,9 +14,9 @@ import UIKit
 class LevelViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
 
     
-    let arrayLevels:[Level] = [Level(levelImage: #imageLiteral(resourceName: "LevelTwo"),isEnabled: true, numberLevelProgress: 0.5),
-                               Level(levelImage: #imageLiteral(resourceName: "LevelOne"),isEnabled: false, numberLevelProgress: 0.0),
-                               Level(levelImage: #imageLiteral(resourceName: "LevelThree"), isEnabled: false, numberLevelProgress: 0.0)]
+    let arrayLevels:[Level] = [Level(levelImage: #imageLiteral(resourceName: "NIVEL 2") ,isEnabled: true, numberLevelProgress: 0.5),
+                               Level(levelImage: #imageLiteral(resourceName: "NIVEL 1"),isEnabled: false, numberLevelProgress: 0.0),
+                               Level(levelImage: #imageLiteral(resourceName: "NIVEL 3"), isEnabled: false, numberLevelProgress: 0.0)]
     
     
     @IBOutlet var tableView: UITableView!
@@ -24,7 +24,8 @@ class LevelViewController: UIViewController, UITableViewDataSource, UITableViewD
         super.viewDidLoad()
         
         
-            
+        let imgBackground = UIImageView(image: #imageLiteral(resourceName: "TAREAS - BACKGROUD"))
+        self.tableView.backgroundView = imgBackground
         
 
         tableView.separatorStyle = .none
