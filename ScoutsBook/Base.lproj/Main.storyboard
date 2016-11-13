@@ -258,10 +258,10 @@
                     </tabBar>
                     <connections>
                         <segue destination="jcT-J1-dKE" kind="relationship" relationship="viewControllers" id="hUW-nE-KKJ"/>
-                        <segue destination="Z8y-4l-Pwa" kind="relationship" relationship="viewControllers" id="OE2-On-cZj"/>
-                        <segue destination="qih-at-kCR" kind="relationship" relationship="viewControllers" id="tnm-f3-rLe"/>
                         <segue destination="uho-GW-n8W" kind="relationship" relationship="viewControllers" id="7nC-lw-v99"/>
                         <segue destination="3PS-p4-bA8" kind="relationship" relationship="viewControllers" id="hfA-5i-4d9"/>
+                        <segue destination="Z8y-4l-Pwa" kind="relationship" relationship="viewControllers" id="OE2-On-cZj"/>
+                        <segue destination="qih-at-kCR" kind="relationship" relationship="viewControllers" id="tnm-f3-rLe"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ud5-2X-MIH" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -279,15 +279,23 @@
                     <view key="view" contentMode="scaleToFill" id="IfO-m2-Dad">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="0.15410047769999999" green="0.41306763889999998" blue="0.69063264130000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <subviews>
+                            <imageView contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MENSAJES - BACKGROUD" translatesAutoresizingMaskIntoConstraints="NO" id="qbU-pq-94F">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
                     </view>
                     <tabBarItem key="tabBarItem" title="" image="05-camara" id="k7M-Zw-JEp">
                         <inset key="imageInsets" minX="0.0" minY="5" maxX="0.0" maxY="-5"/>
                     </tabBarItem>
+                    <connections>
+                        <outlet property="tapImage" destination="qbU-pq-94F" id="7Bu-yO-N3S"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="R0q-HM-obb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2358" y="-170"/>
+            <point key="canvasLocation" x="2357.5999999999999" y="-170.46476761619192"/>
         </scene>
     </scenes>
     <resources>
@@ -298,6 +306,7 @@
         <image name="04-Leves" width="621" height="214"/>
         <image name="04-history" width="37" height="37"/>
         <image name="05-camara" width="37" height="37"/>
+        <image name="MENSAJES - BACKGROUD" width="621" height="1104"/>
         <image name="heart.png" width="512" height="512"/>
     </resources>
 </document>

@@ -26,11 +26,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ScoutsBook/CamaraViewController.swift"
-            timestampString = "500726560.861569"
+            timestampString = "500748869.815928"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "206"
-            endingLineNumber = "206">
+            startingLineNumber = "207"
+            endingLineNumber = "207">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -88,11 +88,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ScoutsBook/CamaraViewController.swift"
-            timestampString = "500729950.08761"
+            timestampString = "500748869.815928"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "133"
-            endingLineNumber = "133"
+            startingLineNumber = "134"
+            endingLineNumber = "134"
             landmarkName = "sendWatsonRequest(_:)"
             landmarkType = "7">
          </BreakpointContent>

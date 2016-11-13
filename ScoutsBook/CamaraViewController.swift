@@ -19,6 +19,7 @@ import FCAlertView
 
 class CamaraViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate, FCAlertViewDelegate {
     
+    @IBOutlet var tapImage: UIImageView!
     var selectedImageUrl: String?
     var bestResultString : String = "Unkown"
     
@@ -41,7 +42,7 @@ class CamaraViewController: UIViewController, UIImagePickerControllerDelegate, U
     func addTapPhoto(){
         let tap = UITapGestureRecognizer(target: self, action: #selector(takePhoto))
         tap.numberOfTapsRequired = 1
-        self.view.addGestureRecognizer(tap)
+        self.tapImage.addGestureRecognizer(tap)
     }
     
     func takePhoto(){

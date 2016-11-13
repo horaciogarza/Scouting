@@ -35,7 +35,7 @@ class userProfileViewController: UIViewController {
         
         User.sharedInstance.Name = "Mark Zucaritas"
         userName.text = User.sharedInstance.Name
-        progress.text = "Progress: 40%"
+        progress.text = "50%"
         userLevel.text = String(User.sharedInstance.Level)
         userToLevel.text = String(User.sharedInstance.Level + 1)
         totalFind.text = "100"
