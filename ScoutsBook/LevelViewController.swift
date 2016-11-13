@@ -45,8 +45,14 @@ class LevelViewController: UIViewController, UITableViewDataSource, UITableViewD
         
         
         let cell = tableView.dequeueReusableCell(withIdentifier: "LevelCell", for: indexPath) as! LevelTableViewCell
-        cell.levelImage = arrayLevels[0].levelImage
-        cell.progress = .Low
+        cell.levelImage = arrayLevels[indexPath.row].levelImage
+        
+        if(arrayLevels[indexPath.row].isEnabled){
+            cell.progress = .Mid
+        }else{
+            cell.progress = .Low
+        }
+        
         
         
         return cell
