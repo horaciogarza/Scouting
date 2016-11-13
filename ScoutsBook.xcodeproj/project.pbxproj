@@ -56,6 +56,8 @@
 		47F1CF261DD791AC0067121E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47F1CF241DD791AC0067121E /* LaunchScreen.storyboard */; };
 		8E68FE931DD7986E0077006F /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E68FE921DD7986E0077006F /* User.swift */; };
 		8E68FE951DD79B740077006F /* Recents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E68FE941DD79B740077006F /* Recents.swift */; };
+		8E68FE9D1DD80A4B0077006F /* userProfile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E68FE9C1DD80A4B0077006F /* userProfile.storyboard */; };
+		8E68FE9F1DD80A6B0077006F /* userProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E68FE9E1DD80A6B0077006F /* userProfileViewController.swift */; };
 		E6977225EAB3D201399237F9 /* Pods_ScoutsBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8312B15E34D046FFEAACC4BD /* Pods_ScoutsBook.framework */; };
 /* End PBXBuildFile section */
 
@@ -128,6 +130,8 @@
 		8312B15E34D046FFEAACC4BD /* Pods_ScoutsBook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ScoutsBook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E68FE921DD7986E0077006F /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		8E68FE941DD79B740077006F /* Recents.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Recents.swift; sourceTree = "<group>"; };
+		8E68FE9C1DD80A4B0077006F /* userProfile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = userProfile.storyboard; sourceTree = "<group>"; };
+		8E68FE9E1DD80A6B0077006F /* userProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = userProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -208,6 +212,7 @@
 				47F1CF1D1DD791AC0067121E /* ViewController.swift */,
 				479195801DD7C06400DA1C97 /* CamaraViewController.swift */,
 				47192DAE1DD7CB1400751F94 /* LevelViewController.swift */,
+				8E68FE9E1DD80A6B0077006F /* userProfileViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -218,6 +223,7 @@
 				47F1CF1F1DD791AC0067121E /* Main.storyboard */,
 				47F1CF241DD791AC0067121E /* LaunchScreen.storyboard */,
 				479195821DD7C09300DA1C97 /* camara.storyboard */,
+				8E68FE9C1DD80A4B0077006F /* userProfile.storyboard */,
 			);
 			name = Storyboards;
 			sourceTree = "<group>";
@@ -336,6 +342,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				47F1CF261DD791AC0067121E /* LaunchScreen.storyboard in Resources */,
+				8E68FE9D1DD80A4B0077006F /* userProfile.storyboard in Resources */,
 				47F1CF231DD791AC0067121E /* Assets.xcassets in Resources */,
 				479195461DD7AD2100DA1C97 /* LevelTableViewCell.xib in Resources */,
 				47F1CF211DD791AC0067121E /* Main.storyboard in Resources */,
@@ -402,6 +409,7 @@
 				4791953E1DD7ACCF00DA1C97 /* LevelTableViewCell.swift in Sources */,
 				47192DB31DD7F53200751F94 /* Levels.swift in Sources */,
 				47F1CF1E1DD791AC0067121E /* ViewController.swift in Sources */,
+				8E68FE9F1DD80A6B0077006F /* userProfileViewController.swift in Sources */,
 				47192DAF1DD7CB1400751F94 /* LevelViewController.swift in Sources */,
 				479195811DD7C06400DA1C97 /* CamaraViewController.swift in Sources */,
 				47F1CF1C1DD791AC0067121E /* AppDelegate.swift in Sources */,
