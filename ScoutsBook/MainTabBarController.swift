@@ -18,17 +18,24 @@ class MainTabBarController: UITabBarController, FCAlertViewDelegate {
         super.viewDidLoad()
 
         
-        //User.sharedInstance.Name = "Mark Zucaritas"
+        User.sharedInstance.Name = "Mark Zucaritas"
         let alert = FCAlertView();
         
         alert.delegate = self
         
+        alert.colorScheme = #colorLiteral(red: 0.3411764801, green: 0.6235294342, blue: 0.1686274558, alpha: 1)
+        alert.makeAlertTypeSuccess()
+        alert.firstButtonTitleColor = #colorLiteral(red: 0.3411764801, green: 0.6235294342, blue: 0.1686274558, alpha: 1)
+        alert.secondButtonTitleColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)
+        alert.secondButtonBackgroundColor = #colorLiteral(red: 0.9254902005, green: 0.2352941185, blue: 0.1019607857, alpha: 1)
+        alert.hideDoneButton = true
+        alert.dismissOnOutsideTouch = false
         alert.showAlert(inView: self,
-                        withTitle:"Welcome Back!",
-                        withSubtitle:"Is nice to see you back",
-                        withCustomImage:nil,
-                        withDoneButtonTitle:nil,
-                        andButtons:["Button 1", "Button 2"]) // Set your button titles here
+                        withTitle: "Welcome back \(User.sharedInstance.Name)",
+                        withSubtitle: "Time to explore the world! 🌎",
+                        withCustomImage: nil,
+                        withDoneButtonTitle: nil,
+                        andButtons: ["Let's discover!"])
         
         //self.imageInsets = UIEdgeInsets(top: 9, left: 0, bottom: -9, right: 0)
         
