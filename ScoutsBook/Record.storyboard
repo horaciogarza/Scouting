@@ -41,10 +41,17 @@
                                         </view>
                                     </collectionViewCell>
                                 </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="4GB-ui-RzO" id="nCi-Xf-Rko"/>
+                                    <outlet property="delegate" destination="4GB-ui-RzO" id="XqI-Ly-D0g"/>
+                                </connections>
                             </collectionView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="collectionView" destination="XVl-b7-gLO" id="Zhy-e3-pOi"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xLc-VM-EZ0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
