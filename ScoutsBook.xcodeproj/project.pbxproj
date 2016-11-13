@@ -69,6 +69,7 @@
 		8E68FE9F1DD80A6B0077006F /* userProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E68FE9E1DD80A6B0077006F /* userProfileViewController.swift */; };
 		8E68FECC1DD8B0B50077006F /* Record.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E68FECB1DD8B0B50077006F /* Record.storyboard */; };
 		8E68FECE1DD8B16D0077006F /* RecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E68FECD1DD8B16D0077006F /* RecordViewController.swift */; };
+		8E68FED21DD8C0660077006F /* RecordCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E68FED11DD8C0660077006F /* RecordCell.swift */; };
 		E6977225EAB3D201399237F9 /* Pods_ScoutsBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8312B15E34D046FFEAACC4BD /* Pods_ScoutsBook.framework */; };
 /* End PBXBuildFile section */
 
@@ -157,6 +158,7 @@
 		8E68FE9E1DD80A6B0077006F /* userProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = userProfileViewController.swift; sourceTree = "<group>"; };
 		8E68FECB1DD8B0B50077006F /* Record.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Record.storyboard; sourceTree = "<group>"; };
 		8E68FECD1DD8B16D0077006F /* RecordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordViewController.swift; sourceTree = "<group>"; };
+		8E68FED11DD8C0660077006F /* RecordCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -206,6 +208,7 @@
 			children = (
 				4791953D1DD7ACCF00DA1C97 /* LevelTableViewCell.swift */,
 				479195451DD7AD2100DA1C97 /* LevelTableViewCell.xib */,
+				8E68FED11DD8C0660077006F /* RecordCell.swift */,
 			);
 			name = XIBS;
 			sourceTree = "<group>";
@@ -462,6 +465,7 @@
 				4791953E1DD7ACCF00DA1C97 /* LevelTableViewCell.swift in Sources */,
 				47192DBC1DD835AD00751F94 /* MainTabBarController.swift in Sources */,
 				8E68FECE1DD8B16D0077006F /* RecordViewController.swift in Sources */,
+				8E68FED21DD8C0660077006F /* RecordCell.swift in Sources */,
 				47192DB51DD81C6600751F94 /* CircularImage.swift in Sources */,
 				47192DB31DD7F53200751F94 /* Levels.swift in Sources */,
 				47F1CF1E1DD791AC0067121E /* ViewController.swift in Sources */,

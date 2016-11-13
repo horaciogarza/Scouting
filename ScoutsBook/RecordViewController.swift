@@ -7,13 +7,35 @@
 //
 
 import UIKit
+import FirebaseDatabase
 
 class RecordViewController: UIViewController{
 
+    @IBOutlet var collectionView: UICollectionView!
+    
+    var RecordItems : [Recents] = []
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        let ref = FIRDatabase.database().reference(withPath: "Record")
         
+        ref.observe(.value, with: { snapshot in
+            
+            var records : [Recents] = []
+            
+            for record in snapshot.children {
+                let registro = Recents(snapshot: record as! FIRDataSnapshot )
+                /*if registro.UserPin == User.sharedInstance.UserPin {
+                    (record).append(registro)
+                }*/
+                records.append(registro)
+            }
+            
+            self.RecordItems = records
+            self.collectionView.reloadData()
+            
+        })
 
         // Do any additional setup after loading the view.
     }
@@ -54,14 +76,21 @@ extension RecordViewController : UICollectionViewDelegate, UICollectionViewDataS
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath) as! MemoryCell
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "RecordCell", for: indexPath) as! RecordCell
         
-        let memory = filteredMemories[indexPath.row]
-        let memoryName = self.thumbnailURL(for: memory).path
-        let image = UIImage(contentsOfFile: memoryName)
-        cell.memoryImage.image = image
+        let registro = RecordItems[indexPath.row]
+        let url : URL = URL(string: registro.Image)!
+        let imageData = NSData(contentsOf: url)
+        var imagen : UIImage!
+
+        do{
+            //imagen = try UIImage(data: imageData)
+        } catch{
+            print(error.localizedDescription)
+        }
+        cell.imageView.image = imagen
         
-        if cell.gestureRecognizers == nil {
+        /*if cell.gestureRecognizers == nil {
             
             let recognizer = UILongPressGestureRecognizer(target: self, action: #selector(self.memoryLongPressed))
             recognizer.minimumPressDuration = 0.3
@@ -70,7 +99,7 @@ extension RecordViewController : UICollectionViewDelegate, UICollectionViewDataS
             cell.layer.borderColor = UIColor.white.cgColor
             cell.layer.borderWidth = 4
             cell.layer.cornerRadius = 10
-        }
+        }*/
         
         return cell
     }
