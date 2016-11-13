@@ -175,16 +175,10 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <connections>
-                        <outlet property="Image" destination="Cha-78-Jjh" id="mh6-PU-tKD"/>
-                        <outlet property="discoveredDateLabel" destination="d16-2O-Ufv" id="iKo-dl-BPx"/>
-                        <outlet property="nameLabel" destination="iLf-pC-nXf" id="M1V-LP-GXL"/>
-                        <outlet property="statusLabel" destination="n7P-aG-B4b" id="dA3-Fr-rWU"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lMX-I7-L21" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1480.8" y="783.95802098950526"/>
+            <point key="canvasLocation" x="1402" y="894"/>
         </scene>
         <!--Title-->
         <scene sceneID="mcy-gw-iSM">
