@@ -180,34 +180,6 @@
             </objects>
             <point key="canvasLocation" x="1402" y="894"/>
         </scene>
-        <!--Title-->
-        <scene sceneID="mcy-gw-iSM">
-            <objects>
-                <viewController id="Z8y-4l-Pwa" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="yVc-Ds-RD8"/>
-                        <viewControllerLayoutGuide type="bottom" id="Ag9-pQ-007"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="jI3-Na-Lac">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="02-HISTORIA" translatesAutoresizingMaskIntoConstraints="NO" id="qTb-Og-d21">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="136"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" image="04-history" id="kRP-xk-FtL">
-                        <inset key="imageInsets" minX="0.0" minY="6" maxX="0.0" maxY="-6"/>
-                    </tabBarItem>
-                    <navigationItem key="navigationItem" title="Title" id="C8D-oJ-88M"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="uZ1-9j-y4A" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2357.5999999999999" y="480.80959520239884"/>
-        </scene>
         <!--UserProfileController-->
         <scene sceneID="PKP-5c-Gc5">
             <objects>
@@ -260,7 +232,7 @@
                         <segue destination="jcT-J1-dKE" kind="relationship" relationship="viewControllers" id="hUW-nE-KKJ"/>
                         <segue destination="uho-GW-n8W" kind="relationship" relationship="viewControllers" id="7nC-lw-v99"/>
                         <segue destination="3PS-p4-bA8" kind="relationship" relationship="viewControllers" id="hfA-5i-4d9"/>
-                        <segue destination="Z8y-4l-Pwa" kind="relationship" relationship="viewControllers" id="OE2-On-cZj"/>
+                        <segue destination="bns-5V-sbJ" kind="relationship" relationship="viewControllers" id="0CE-N7-bnG"/>
                         <segue destination="qih-at-kCR" kind="relationship" relationship="viewControllers" id="tnm-f3-rLe"/>
                     </connections>
                 </tabBarController>
@@ -296,6 +268,70 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="R0q-HM-obb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2357.5999999999999" y="-170.46476761619192"/>
+        </scene>
+        <!--Record View Controller-->
+        <scene sceneID="lCA-fT-y7n">
+            <objects>
+                <viewController id="bns-5V-sbJ" customClass="RecordViewController" customModule="ScoutsBook" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="VZJ-Vu-WKw"/>
+                        <viewControllerLayoutGuide type="bottom" id="LGS-gs-V0n"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="JfN-6r-GnT">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="98p-2K-L9P">
+                                <rect key="frame" x="0.0" y="78" width="375" height="560"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="ctu-zK-i11">
+                                    <size key="itemSize" width="125" height="128"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="RecordCell" id="Xko-vV-d0f" customClass="RecordCell" customModule="ScoutsBook" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="125" height="128"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="125" height="128"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="s3E-Ik-Je5">
+                                                    <rect key="frame" x="0.0" y="0.0" width="125" height="128"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                            </subviews>
+                                        </view>
+                                        <connections>
+                                            <outlet property="imageView" destination="s3E-Ik-Je5" id="UyV-ts-NiC"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="bns-5V-sbJ" id="9Pm-HH-2C0"/>
+                                    <outlet property="delegate" destination="bns-5V-sbJ" id="PBq-9B-OgN"/>
+                                </connections>
+                            </collectionView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="02-HISTORIA" translatesAutoresizingMaskIntoConstraints="NO" id="fQi-ZP-39U">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="136"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="" image="04-history" id="tp5-J5-FCT">
+                        <inset key="imageInsets" minX="0.0" minY="6" maxX="0.0" maxY="-6"/>
+                    </tabBarItem>
+                    <connections>
+                        <outlet property="collectionView" destination="98p-2K-L9P" id="8Hz-uU-Zn2"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hkp-7c-7gv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2574" y="699"/>
         </scene>
     </scenes>
     <resources>
