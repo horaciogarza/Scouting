@@ -13,6 +13,7 @@ import VisualRecognitionV3
 import AlamofireImage
 import Alamofire
 import FirebaseStorage
+import FirebaseDatabase
 import FCAlertView
 
 
@@ -121,27 +122,36 @@ class CamaraViewController: UIViewController, UIImagePickerControllerDelegate, U
             DispatchQueue.main.async {
                 if sucess {
                     let alert = FCAlertView()
-                    
+                    alert.delegate = self
                     alert.colorScheme = #colorLiteral(red: 0.3411764801, green: 0.6235294342, blue: 0.1686274558, alpha: 1)
                     alert.makeAlertTypeSuccess()
+                    alert.firstButtonTitleColor = #colorLiteral(red: 0.3411764801, green: 0.6235294342, blue: 0.1686274558, alpha: 1)
+                    alert.secondButtonTitleColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)
+                    alert.secondButtonBackgroundColor = #colorLiteral(red: 0.9254902005, green: 0.2352941185, blue: 0.1019607857, alpha: 1)
+                    alert.hideDoneButton = true
+                    alert.dismissOnOutsideTouch = false
                     alert.showAlert(inView: self,
                                     withTitle: "Image Results",
                                     withSubtitle: results,
                                     withCustomImage: nil,
                                     withDoneButtonTitle: nil,
-                                    andButtons: nil)
+                                    andButtons: ["Save", "Don't Save"])
                 }else{
                 
                     let alert = FCAlertView()
-                    
+                    alert.delegate = self
                     alert.colorScheme = #colorLiteral(red: 0.3411764801, green: 0.6235294342, blue: 0.1686274558, alpha: 1)
-                    alert.makeAlertTypeSuccess()
+                    alert.firstButtonTitleColor = #colorLiteral(red: 0.3411764801, green: 0.6235294342, blue: 0.1686274558, alpha: 1)
+                    alert.secondButtonTitleColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)
+                    alert.secondButtonBackgroundColor = #colorLiteral(red: 0.9254902005, green: 0.2352941185, blue: 0.1019607857, alpha: 1)
+                    alert.hideDoneButton = true
+                    alert.dismissOnOutsideTouch = false
                     alert.showAlert(inView: self,
                                     withTitle: "Unable to identify",
                                     withSubtitle: "It looks that the image didn't enter any of the categories",
-                                    withCustomImage: nil,
+                                    withCustomImage: #imageLiteral(resourceName: "question-icon-29-2"),
                                     withDoneButtonTitle: nil,
-                                    andButtons: nil)
+                                    andButtons: ["Save", "Don't Save"])
                 }
             }
             
@@ -149,6 +159,22 @@ class CamaraViewController: UIViewController, UIImagePickerControllerDelegate, U
         //
         
     }
+    
+    func fcAlertView(_ alertView: FCAlertView!, clickedButtonIndex index: Int, buttonTitle title: String!) {
+        if title == "Save" {
+            print("Se Guardo")
+            
+             let ref = FIRDatabase.database().reference(withPath: "recetas")
+            
+            
+        }else if title == "Don't Save"{
+            print("No se guardo")
+            
+        }
+    }
+    
+
+    
 
     //MARK: Alamofire
     

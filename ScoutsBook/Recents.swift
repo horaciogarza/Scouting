@@ -8,8 +8,10 @@
 
 import Foundation
 import Firebase
+import FirebaseDatabase
 
 class Recents {
+    let key : String
     let UserPin : Int
     let Image : String
     let Fecha : String
@@ -17,10 +19,12 @@ class Recents {
     let ref : FIRDatabaseReference?
     
     init(UserPin: Int, Image: String, Fecha: String, Decripcion: String){
+        self.key = ""
         self.UserPin = UserPin
         self.Image = Image
         self.Fecha = Fecha
         self.Decripcion = Decripcion
+        self.ref = nil
     }
     
     
@@ -30,7 +34,7 @@ class Recents {
         UserPin = snapshotValue["UserPin"] as! Int
         Image = snapshotValue["Image"] as! String
         Fecha = snapshotValue["Fecha"] as! String
-        Description = snapshotValue["Descripcion"] as! String
+        Decripcion = snapshotValue["Descripcion"] as! String
         ref = snapshot.ref
     }
     
@@ -39,7 +43,7 @@ class Recents {
             "UserPin": UserPin,
             "Image": Image,
             "Fecha": Fecha,
-            "Descripcion": Descripcion
+            "Descripcion": Decripcion
         ]
     }
 }
