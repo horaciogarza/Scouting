@@ -4,100 +4,55 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>AWSCore.xcscheme</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>1</integer>
-		</dict>
-		<key>AWSDynamoDB.xcscheme</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>4</integer>
-		</dict>
-		<key>AWSS3.xcscheme</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>2</integer>
-		</dict>
 		<key>Alamofire.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>8</integer>
+			<key>isShown</key>
+			<false/>
 		</dict>
 		<key>AlamofireImage.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>9</integer>
+			<key>isShown</key>
+			<false/>
 		</dict>
 		<key>FCAlertView-FCAlertView.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>6</integer>
+			<key>isShown</key>
+			<false/>
 		</dict>
 		<key>FCAlertView.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>5</integer>
+			<key>isShown</key>
+			<false/>
 		</dict>
 		<key>GTMSessionFetcher.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>11</integer>
+			<key>isShown</key>
+			<false/>
 		</dict>
 		<key>GTProgressBar.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>7</integer>
+			<key>isShown</key>
+			<false/>
 		</dict>
 		<key>GoogleToolboxForMac.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>10</integer>
+			<key>isShown</key>
+			<false/>
 		</dict>
 		<key>Pods-ScoutsBook.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>3</integer>
+			<key>isShown</key>
+			<false/>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>001F9C2D574B14AE74226E2EFE28C09A</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>0C81C802D8F6AEBCA97D9E63AE95D76E</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
 		<key>13548B50C579840B9581F3DCAD5EB186</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>14899DD2DE4794A659D6E3A53A2FE532</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>22C465AF3A672FEC283CFE5D39CE5B79</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
 		<key>23BA9083ED0D2392A167A8AFA04427FA</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>2A0F79E966964246DF0A1A79F9F2DA3B</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>2DB2440E9FA2A7EDF63907320807D8AD</key>
 		<dict>
 			<key>primary</key>
 			<true/>
