@@ -16,14 +16,12 @@
 		47192DBE1DD8386F00751F94 /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47192DBD1DD8386F00751F94 /* UserProfile.swift */; };
 		47192DC31DD83D5C00751F94 /* AWSDynamoDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47192DC01DD83D5C00751F94 /* AWSDynamoDB.framework */; };
 		47192DC41DD83D5C00751F94 /* AWSS3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47192DC11DD83D5C00751F94 /* AWSS3.framework */; };
-		47192DCC1DD8422100751F94 /* AWSMobileClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47192DC71DD8422100751F94 /* AWSMobileClient.swift */; };
-		47192DCD1DD8422100751F94 /* AWSMobileHubHelper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47192DC81DD8422100751F94 /* AWSMobileHubHelper.framework */; };
-		47192DCE1DD8422100751F94 /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47192DCB1DD8422100751F94 /* Users.swift */; };
 		47192DD11DD843F800751F94 /* AWSDynamoDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47192DC01DD83D5C00751F94 /* AWSDynamoDB.framework */; };
 		47192DD31DD843F800751F94 /* AWSS3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47192DC11DD83D5C00751F94 /* AWSS3.framework */; };
-		47192DD51DD844BB00751F94 /* AWSMobileHubHelper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47192DC81DD8422100751F94 /* AWSMobileHubHelper.framework */; };
 		47192DD81DD8462200751F94 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 47192DD71DD8462200751F94 /* libsqlite3.tbd */; };
 		47192DDA1DD8462E00751F94 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 47192DD91DD8462E00751F94 /* libz.tbd */; };
+		47192DED1DD8660600751F94 /* AlamofireImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47192DEC1DD8660600751F94 /* AlamofireImage.framework */; };
+		476959411DD88AE200D05294 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 476959401DD88AE200D05294 /* GoogleService-Info.plist */; };
 		479195381DD7AB0600DA1C97 /* VisualRecognitionV3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 479195371DD7AB0600DA1C97 /* VisualRecognitionV3.framework */; };
 		4791953E1DD7ACCF00DA1C97 /* LevelTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4791953D1DD7ACCF00DA1C97 /* LevelTableViewCell.swift */; };
 		479195461DD7AD2100DA1C97 /* LevelTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 479195451DD7AD2100DA1C97 /* LevelTableViewCell.xib */; };
@@ -117,11 +115,10 @@
 		47192DBF1DD83D5C00751F94 /* AWSCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSCore.framework; path = "../../Library/Developer/Xcode/DerivedData/ScoutsBook-emudhaffbkzzpofhyramrbnvmiur/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework"; sourceTree = "<group>"; };
 		47192DC01DD83D5C00751F94 /* AWSDynamoDB.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSDynamoDB.framework; path = "../../Library/Developer/Xcode/DerivedData/ScoutsBook-emudhaffbkzzpofhyramrbnvmiur/Build/Products/Debug-iphonesimulator/AWSDynamoDB/AWSDynamoDB.framework"; sourceTree = "<group>"; };
 		47192DC11DD83D5C00751F94 /* AWSS3.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSS3.framework; path = "../../Library/Developer/Xcode/DerivedData/ScoutsBook-emudhaffbkzzpofhyramrbnvmiur/Build/Products/Debug-iphonesimulator/AWSS3/AWSS3.framework"; sourceTree = "<group>"; };
-		47192DC71DD8422100751F94 /* AWSMobileClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AWSMobileClient.swift; sourceTree = "<group>"; };
-		47192DC81DD8422100751F94 /* AWSMobileHubHelper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AWSMobileHubHelper.framework; sourceTree = "<group>"; };
-		47192DCB1DD8422100751F94 /* Users.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
 		47192DD71DD8462200751F94 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		47192DD91DD8462E00751F94 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		47192DEC1DD8660600751F94 /* AlamofireImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlamofireImage.framework; path = "Pods/../build/Debug-iphoneos/AlamofireImage/AlamofireImage.framework"; sourceTree = "<group>"; };
+		476959401DD88AE200D05294 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		479195371DD7AB0600DA1C97 /* VisualRecognitionV3.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VisualRecognitionV3.framework; path = Carthage/Build/iOS/VisualRecognitionV3.framework; sourceTree = "<group>"; };
 		479195391DD7AB7200DA1C97 /* ChameleonFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ChameleonFramework.framework; path = "Pods/../build/Debug-iphoneos/ChameleonFramework/ChameleonFramework.framework"; sourceTree = "<group>"; };
 		4791953D1DD7ACCF00DA1C97 /* LevelTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LevelTableViewCell.swift; sourceTree = "<group>"; };
@@ -167,11 +164,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47192DED1DD8660600751F94 /* AlamofireImage.framework in Frameworks */,
 				47192DDA1DD8462E00751F94 /* libz.tbd in Frameworks */,
 				47192DD81DD8462200751F94 /* libsqlite3.tbd in Frameworks */,
 				47192DC31DD83D5C00751F94 /* AWSDynamoDB.framework in Frameworks */,
 				47192DD31DD843F800751F94 /* AWSS3.framework in Frameworks */,
-				47192DCD1DD8422100751F94 /* AWSMobileHubHelper.framework in Frameworks */,
 				47192DC41DD83D5C00751F94 /* AWSS3.framework in Frameworks */,
 				479195601DD7BA4300DA1C97 /* LanguageTranslatorV2.framework in Frameworks */,
 				479195611DD7BA4300DA1C97 /* ToneAnalyzerV3.framework in Frameworks */,
@@ -193,7 +190,6 @@
 				479195381DD7AB0600DA1C97 /* VisualRecognitionV3.framework in Frameworks */,
 				4791954D1DD7B91900DA1C97 /* GTProgressBar.framework in Frameworks */,
 				4791954B1DD7B68900DA1C97 /* FCAlertView.framework in Frameworks */,
-				47192DD51DD844BB00751F94 /* AWSMobileHubHelper.framework in Frameworks */,
 				E6977225EAB3D201399237F9 /* Pods_ScoutsBook.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -207,32 +203,6 @@
 				47192DB91DD81E6B00751F94 /* Comfortaa-Regular.ttf */,
 			);
 			name = Resources;
-			sourceTree = "<group>";
-		};
-		47192DC61DD8422100751F94 /* AmazonAws */ = {
-			isa = PBXGroup;
-			children = (
-				47192DC71DD8422100751F94 /* AWSMobileClient.swift */,
-				47192DC81DD8422100751F94 /* AWSMobileHubHelper.framework */,
-				47192DC91DD8422100751F94 /* Models */,
-			);
-			path = AmazonAws;
-			sourceTree = "<group>";
-		};
-		47192DC91DD8422100751F94 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				47192DCA1DD8422100751F94 /* NoSQL */,
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		47192DCA1DD8422100751F94 /* NoSQL */ = {
-			isa = PBXGroup;
-			children = (
-				47192DCB1DD8422100751F94 /* Users.swift */,
-			);
-			path = NoSQL;
 			sourceTree = "<group>";
 		};
 		479195471DD7AD2400DA1C97 /* XIBS */ = {
@@ -265,7 +235,7 @@
 		47F1CF1A1DD791AC0067121E /* ScoutsBook */ = {
 			isa = PBXGroup;
 			children = (
-				47192DC61DD8422100751F94 /* AmazonAws */,
+				476959401DD88AE200D05294 /* GoogleService-Info.plist */,
 				47192DB81DD81DC900751F94 /* Resources */,
 				479195471DD7AD2400DA1C97 /* XIBS */,
 				8E68FE911DD798380077006F /* Models */,
@@ -326,6 +296,7 @@
 		B0D26CD2F6201EC18871C48E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				47192DEC1DD8660600751F94 /* AlamofireImage.framework */,
 				47192DD91DD8462E00751F94 /* libz.tbd */,
 				47192DD71DD8462200751F94 /* libsqlite3.tbd */,
 				47192DBF1DD83D5C00751F94 /* AWSCore.framework */,
@@ -422,6 +393,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				476959411DD88AE200D05294 /* GoogleService-Info.plist in Resources */,
 				47F1CF261DD791AC0067121E /* LaunchScreen.storyboard in Resources */,
 				8E68FE9D1DD80A4B0077006F /* userProfile.storyboard in Resources */,
 				47F1CF231DD791AC0067121E /* Assets.xcassets in Resources */,
@@ -489,12 +461,10 @@
 			files = (
 				8E68FE951DD79B740077006F /* Recents.swift in Sources */,
 				4791953E1DD7ACCF00DA1C97 /* LevelTableViewCell.swift in Sources */,
-				47192DCC1DD8422100751F94 /* AWSMobileClient.swift in Sources */,
 				47192DBC1DD835AD00751F94 /* MainTabBarController.swift in Sources */,
 				47192DB51DD81C6600751F94 /* CircularImage.swift in Sources */,
 				47192DB31DD7F53200751F94 /* Levels.swift in Sources */,
 				47F1CF1E1DD791AC0067121E /* ViewController.swift in Sources */,
-				47192DCE1DD8422100751F94 /* Users.swift in Sources */,
 				8E68FE9F1DD80A6B0077006F /* userProfileViewController.swift in Sources */,
 				47192DB71DD81CB800751F94 /* ProfileViewController.swift in Sources */,
 				47192DAF1DD7CB1400751F94 /* LevelViewController.swift in Sources */,
@@ -632,6 +602,7 @@
 					"$(PROJECT_DIR)/build/Debug-iphoneos/ChameleonFramework",
 					"$(PROJECT_DIR)/build/Debug-iphoneos/GTProgressBar",
 					"$(PROJECT_DIR)/ScoutsBook/AmazonAws",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/AlamofireImage",
 				);
 				INFOPLIST_FILE = ScoutsBook/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -653,6 +624,7 @@
 					"$(PROJECT_DIR)/build/Debug-iphoneos/ChameleonFramework",
 					"$(PROJECT_DIR)/build/Debug-iphoneos/GTProgressBar",
 					"$(PROJECT_DIR)/ScoutsBook/AmazonAws",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/AlamofireImage",
 				);
 				INFOPLIST_FILE = ScoutsBook/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
