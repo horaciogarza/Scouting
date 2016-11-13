@@ -58,6 +58,7 @@
 		4591242DA0FC579E318926AB331A608F /* AWSSTSService.h in Headers */ = {isa = PBXBuildFile; fileRef = 87743BAC0D93F8E6EAD3AD7D28FE63F5 /* AWSSTSService.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		459E247B0880C149EB97731D7AB9D938 /* AWSS3-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B2FA51F904EC751F1ACC38E7D533B8CC /* AWSS3-dummy.m */; };
 		4711540E731F29A07E07C3A22A83039D /* AWSFMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EE52441B8A1058E7F3104B1033DDCC1 /* AWSFMDatabaseAdditions.m */; };
+		47192DB11DD7F2B600751F94 /* Levels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47192DB01DD7F2B600751F94 /* Levels.swift */; };
 		497852B1C647F5FFF2F0C1173151C796 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39C809EC3959652A209F9C0E8EE17865 /* Foundation.framework */; };
 		4C41F341E7B0D7ECEC9EB6484931F9AD /* AWSURLRequestRetryHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = C9F84D48DD1B864FAA0C3EF58611074B /* AWSURLRequestRetryHandler.m */; };
 		4CFB7B46A379086C8638066A01C5DAAC /* AWSSTSService.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FFEDDC15B3C0CE431C59C5217FD8809 /* AWSSTSService.m */; };
@@ -317,6 +318,7 @@
 		41CDE7B0C5697AB8901056FCEB278A7B /* AWSS3Model.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AWSS3Model.m; path = AWSS3/AWSS3Model.m; sourceTree = "<group>"; };
 		42E26CD9D802E01080B8B1840688EF01 /* heart.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = heart.png; path = FCAlertView/Assets/heart.png; sourceTree = "<group>"; };
 		44673964CB43EEE596095A105ED868CD /* AWSCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AWSCore.h; path = AWSCore/AWSCore.h; sourceTree = "<group>"; };
+		47192DB01DD7F2B600751F94 /* Levels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Levels.swift; sourceTree = "<group>"; };
 		49198B72AE3618905B76B4996DCB926F /* AWSDynamoDBModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AWSDynamoDBModel.h; path = AWSDynamoDB/AWSDynamoDBModel.h; sourceTree = "<group>"; };
 		4A38F4E7EBF26FCDFBB8AEC00B65CEA9 /* AWSCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AWSCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B1F066A8D68212CF7387912BA9C840D /* AWSXMLWriter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AWSXMLWriter.h; path = AWSCore/XMLWriter/AWSXMLWriter.h; sourceTree = "<group>"; };
@@ -781,6 +783,7 @@
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
+				47192DB01DD7F2B600751F94 /* Levels.swift */,
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				737B752A69510DD648696CE7C44BA1E5 /* Frameworks */,
 				3BCC16B25B421E19D59D13F3AC4FBB33 /* Pods */,
@@ -1191,6 +1194,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					0C81C802D8F6AEBCA97D9E63AE95D76E = {
+						LastSwiftMigration = 0810;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -1326,6 +1334,7 @@
 				61CC8E826235F1F9509F059D80C2F131 /* AWSMTLManagedObjectAdapter.m in Sources */,
 				1B8E180E2A6804C7A3E3DFE255831FE5 /* AWSMTLModel+NSCoding.m in Sources */,
 				C265F7B9E6814A5BE73B44AA2534C560 /* AWSMTLModel.m in Sources */,
+				47192DB11DD7F2B600751F94 /* Levels.swift in Sources */,
 				85EC2775A2259BD6968D657ACAA76592 /* AWSMTLReflection.m in Sources */,
 				299DAF83049F4D7ECE37EC65F941A76C /* AWSMTLValueTransformer.m in Sources */,
 				27A66F4CEA4A9F45EBEB7372D995C03D /* AWSNetworking.m in Sources */,
@@ -1799,6 +1808,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 854794077C399AD8D78B16ED1D60BB50 /* AWSCore.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -1818,6 +1828,7 @@
 				PRODUCT_NAME = AWSCore;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1828,6 +1839,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 854794077C399AD8D78B16ED1D60BB50 /* AWSCore.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -1847,6 +1859,8 @@
 				PRODUCT_NAME = AWSCore;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";

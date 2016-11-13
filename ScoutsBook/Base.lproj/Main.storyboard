@@ -103,12 +103,16 @@
                                 </prototypes>
                                 <connections>
                                     <outlet property="dataSource" destination="uho-GW-n8W" id="LdL-Ea-lL6"/>
+                                    <outlet property="delegate" destination="uho-GW-n8W" id="ii5-Lr-Hcd"/>
                                 </connections>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" systemItem="search" id="B7h-mt-pm8"/>
+                    <connections>
+                        <outlet property="tableView" destination="xa7-N8-xyn" id="1cb-KZ-ztn"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RKG-qB-YiM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
