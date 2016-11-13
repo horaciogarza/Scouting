@@ -18,6 +18,8 @@ class RecordViewController: UIViewController{
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        
+        
         let ref = FIRDatabase.database().reference(withPath: "Record")
         
         ref.observe(.value, with: { snapshot in
