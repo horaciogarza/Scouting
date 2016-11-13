@@ -9,9 +9,12 @@
 import Foundation
 
 class User {
+    
+    static let sharedInstance = User(UserPin: 0, Email: "", Password: "", Name: "", Level: 0, CreationDate: "")
+    
     let UserPin : Int
     let Email : String
-    let Password : String
+    let Password : String?
     let Name : String
     let ProfilePicture : String?
     let Level : Int
@@ -20,7 +23,7 @@ class User {
     let LastLogin : String?
     
     
-    init(UserPin: Int, Email: String, Password: String, Name: String, Level: Int, CreationDate : String) {
+    init(UserPin: Int, Email: String, Password: String?, Name: String, Level: Int, CreationDate : String) {
         self.UserPin = UserPin
         self.Email = Email
         self.Password = Password
