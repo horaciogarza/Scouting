@@ -9,9 +9,10 @@ target 'ScoutsBook' do
 
   
   
-    pod 'AWSDynamoDB'
     
-    pod 'AWSS3'
+    pod 'AlamofireImage', '~> 3.1'
+    
+    pod 'Firebase/Storage'
     
   pod 'FCAlertView'
   # pod 'ChameleonFramework/Swift', :git => 'https://github.com/ViccAlexander/Chameleon.git'
