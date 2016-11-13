@@ -8,6 +8,7 @@
 
 import UIKit
 import FirebaseDatabase
+import FCAlertView
 
 class RecordViewController: UIViewController{
     
@@ -90,20 +91,43 @@ extension RecordViewController : UICollectionViewDelegate, UICollectionViewDataS
             print(error.localizedDescription)
         }
         
-        /*if cell.gestureRecognizers == nil {
+        let blue = #colorLiteral(red: 0.1764705926, green: 0.4980392158, blue: 0.7568627596, alpha: 1).cgColor
+        if cell.gestureRecognizers == nil {
          
-         let recognizer = UILongPressGestureRecognizer(target: self, action: #selector(self.memoryLongPressed))
-         recognizer.minimumPressDuration = 0.3
+         let recognizer = UILongPressGestureRecognizer(target: self, action: #selector(self.imageLongPressed))
+         recognizer.minimumPressDuration = 0.2
          cell.addGestureRecognizer(recognizer)
          
-         cell.layer.borderColor = UIColor.white.cgColor
-         cell.layer.borderWidth = 4
-         cell.layer.cornerRadius = 10
-         }*/
+         cell.layer.borderColor = blue
+         cell.layer.borderWidth = 2
+         //cell.layer.cornerRadius = 0
+         }
         
         return cell
     }
     
+    
+    func imageLongPressed(sender: UILongPressGestureRecognizer){
+        if sender.state == .began{
+            let cell = sender.view as! RecordCell
+            
+            if let index = self.collectionView?.indexPath(for: cell) {
+                let recuerdo = self.RecordItems[index.row]
+                let alert = FCAlertView()
+                alert.hideAllButtons = true
+                alert.showAlert(inView: self,
+                                withTitle: "Memory",
+                                withSubtitle: "Best match: \(recuerdo.Decripcion) \n\nDate: \(recuerdo.Fecha)",
+                                withCustomImage: #imageLiteral(resourceName: "alertLogo"),
+                                withDoneButtonTitle: nil,
+                                andButtons: nil)
+            }
+        }
+        
+        if sender.state == .ended{
+            
+        }
+    }
     
     /*func collectionView(_ collectionView: UICollectionView, viewForSupplementaryElementOfKind kind: String, at indexPath: IndexPath) -> UICollectionReusableView {
      let header = collectionView.dequeueReusableSupplementaryView(ofKind: kind, withReuseIdentifier: "SearchHeader", for: indexPath)

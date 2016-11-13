@@ -56,10 +56,25 @@ class CamaraViewController: UIViewController, UIImagePickerControllerDelegate, U
         }
     }
     
+    func resizeImage (imagen: UIImage, to width: CGFloat) -> UIImage? {
+        let scaleFactor = width/imagen.size.width
+        
+        let height = imagen.size.height * scaleFactor
+        
+        UIGraphicsBeginImageContextWithOptions(CGSize(width: width, height: height), false, 0)
+        
+        imagen.draw(in: CGRect(x: 0, y: 0, width: width, height: height))
+        let newImage = UIGraphicsGetImageFromCurrentImageContext()
+        UIGraphicsEndImageContext()
+        
+        return newImage
+    }
+    
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : Any]) {
         
         if let imagen = info[UIImagePickerControllerOriginalImage] as? UIImage {
-            uploadToFirebase(image: imagen)
+            let newImage = resizeImage(imagen: imagen, to: 300)
+            uploadToFirebase(image: newImage!)
         }
         self.dismiss(animated: true, completion: nil)
     }
