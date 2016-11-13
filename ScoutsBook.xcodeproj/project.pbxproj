@@ -18,6 +18,7 @@
 		47192DDA1DD8462E00751F94 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 47192DD91DD8462E00751F94 /* libz.tbd */; };
 		47192DED1DD8660600751F94 /* AlamofireImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47192DEC1DD8660600751F94 /* AlamofireImage.framework */; };
 		476959411DD88AE200D05294 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 476959401DD88AE200D05294 /* GoogleService-Info.plist */; };
+		477ECDF91DD89D98002EB54B /* LauncScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477ECDF81DD89D98002EB54B /* LauncScreenViewController.swift */; };
 		479195381DD7AB0600DA1C97 /* VisualRecognitionV3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 479195371DD7AB0600DA1C97 /* VisualRecognitionV3.framework */; };
 		4791953E1DD7ACCF00DA1C97 /* LevelTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4791953D1DD7ACCF00DA1C97 /* LevelTableViewCell.swift */; };
 		479195461DD7AD2100DA1C97 /* LevelTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 479195451DD7AD2100DA1C97 /* LevelTableViewCell.xib */; };
@@ -115,6 +116,7 @@
 		47192DD91DD8462E00751F94 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		47192DEC1DD8660600751F94 /* AlamofireImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlamofireImage.framework; path = "Pods/../build/Debug-iphoneos/AlamofireImage/AlamofireImage.framework"; sourceTree = "<group>"; };
 		476959401DD88AE200D05294 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		477ECDF81DD89D98002EB54B /* LauncScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LauncScreenViewController.swift; sourceTree = "<group>"; };
 		479195371DD7AB0600DA1C97 /* VisualRecognitionV3.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VisualRecognitionV3.framework; path = Carthage/Build/iOS/VisualRecognitionV3.framework; sourceTree = "<group>"; };
 		479195391DD7AB7200DA1C97 /* ChameleonFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ChameleonFramework.framework; path = "Pods/../build/Debug-iphoneos/ChameleonFramework/ChameleonFramework.framework"; sourceTree = "<group>"; };
 		4791953D1DD7ACCF00DA1C97 /* LevelTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LevelTableViewCell.swift; sourceTree = "<group>"; };
@@ -260,6 +262,7 @@
 			children = (
 				47F1CF1F1DD791AC0067121E /* Main.storyboard */,
 				47F1CF241DD791AC0067121E /* LaunchScreen.storyboard */,
+				477ECDF81DD89D98002EB54B /* LauncScreenViewController.swift */,
 				479195821DD7C09300DA1C97 /* camara.storyboard */,
 				8E68FE9C1DD80A4B0077006F /* userProfile.storyboard */,
 			);
@@ -451,6 +454,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				477ECDF91DD89D98002EB54B /* LauncScreenViewController.swift in Sources */,
 				8E68FE951DD79B740077006F /* Recents.swift in Sources */,
 				4791953E1DD7ACCF00DA1C97 /* LevelTableViewCell.swift in Sources */,
 				47192DBC1DD835AD00751F94 /* MainTabBarController.swift in Sources */,

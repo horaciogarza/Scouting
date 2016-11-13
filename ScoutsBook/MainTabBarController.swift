@@ -18,6 +18,7 @@ class MainTabBarController: UITabBarController, FCAlertViewDelegate {
         super.viewDidLoad()
 
         
+        //User.sharedInstance.Name = "Mark Zucaritas"
         let alert = FCAlertView();
         
         alert.delegate = self

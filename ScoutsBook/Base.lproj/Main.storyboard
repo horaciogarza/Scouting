@@ -55,7 +55,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="484" y="-116"/>
+            <point key="canvasLocation" x="498" y="-9"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="pfS-dJ-RMe">
@@ -70,11 +70,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" selectedImage="01-PERFIL" systemItem="more" id="is8-dL-gfn"/>
+                    <tabBarItem key="tabBarItem" image="05-camara" id="is8-dL-gfn">
+                        <inset key="imageInsets" minX="0.0" minY="5" maxX="0.0" maxY="-5"/>
+                    </tabBarItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EQp-go-f9k" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2359" y="-184"/>
+            <point key="canvasLocation" x="2449" y="-185"/>
         </scene>
         <!--Level-->
         <scene sceneID="mev-AG-Frf">
@@ -114,7 +116,9 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="" systemItem="mostViewed" id="te2-ox-YSV"/>
+                    <tabBarItem key="tabBarItem" title="" image="02-levels" id="te2-ox-YSV">
+                        <inset key="imageInsets" minX="0.0" minY="7" maxX="0.0" maxY="-8"/>
+                    </tabBarItem>
                     <navigationItem key="navigationItem" title="Level" id="iUC-dI-AEo"/>
                     <connections>
                         <outlet property="tableView" destination="xa7-N8-xyn" id="1cb-KZ-ztn"/>
@@ -143,7 +147,9 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" systemItem="bookmarks" id="kRP-xk-FtL"/>
+                    <tabBarItem key="tabBarItem" image="04-history" id="kRP-xk-FtL">
+                        <inset key="imageInsets" minX="0.0" minY="6" maxX="0.0" maxY="-6"/>
+                    </tabBarItem>
                     <navigationItem key="navigationItem" title="Title" id="C8D-oJ-88M"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uZ1-9j-y4A" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -171,9 +177,17 @@
                     <view key="view" contentMode="scaleToFill" id="THp-lh-qMi">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="03-SETTINGS" translatesAutoresizingMaskIntoConstraints="NO" id="M6y-Zw-STZ">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="136"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" systemItem="more" id="UHs-5l-z1m"/>
+                    <tabBarItem key="tabBarItem" image="03-settings-1" id="UHs-5l-z1m">
+                        <inset key="imageInsets" minX="0.0" minY="6" maxX="0.0" maxY="-6"/>
+                    </tabBarItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BJ1-P6-T4J" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -193,8 +207,8 @@
                     <connections>
                         <segue destination="jcT-J1-dKE" kind="relationship" relationship="viewControllers" id="hUW-nE-KKJ"/>
                         <segue destination="Z8y-4l-Pwa" kind="relationship" relationship="viewControllers" id="OE2-On-cZj"/>
-                        <segue destination="qih-at-kCR" kind="relationship" relationship="viewControllers" id="tnm-f3-rLe"/>
                         <segue destination="hG8-8u-VZP" kind="relationship" relationship="viewControllers" id="IUI-gR-43m"/>
+                        <segue destination="qih-at-kCR" kind="relationship" relationship="viewControllers" id="tnm-f3-rLe"/>
                         <segue destination="uho-GW-n8W" kind="relationship" relationship="viewControllers" id="7nC-lw-v99"/>
                     </connections>
                 </tabBarController>
@@ -204,9 +218,13 @@
         </scene>
     </scenes>
     <resources>
-        <image name="01-PERFIL" width="1242" height="428"/>
-        <image name="02-HISTORIA" width="1242" height="428"/>
-        <image name="04-Leves" width="1242" height="428"/>
+        <image name="02-HISTORIA" width="621" height="214"/>
+        <image name="02-levels" width="37" height="37"/>
+        <image name="03-SETTINGS" width="621" height="214"/>
+        <image name="03-settings-1" width="37" height="37"/>
+        <image name="04-Leves" width="621" height="214"/>
+        <image name="04-history" width="37" height="37"/>
+        <image name="05-camara" width="37" height="37"/>
         <image name="heart.png" width="512" height="512"/>
     </resources>
 </document>

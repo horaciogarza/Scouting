@@ -25,12 +25,20 @@ class userProfileViewController: UIViewController {
         self.profilePicture.layer.cornerRadius = self.profilePicture.frame.size.width / 2;
         self.profilePicture.clipsToBounds = true//YES;
         // Do any additional setup after loading the view.
+        
+        
     }
 
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        self.navigationController?.navigationBar.topItem?.title = "User Profile"
+        
+        User.sharedInstance.Name = "Mark Zucaritas"
+        userName.text = User.sharedInstance.Name
+        progress.text = "Progress: 40%"
+        userLevel.text = String(User.sharedInstance.Level)
+        userToLevel.text = String(User.sharedInstance.Level + 1)
+        totalFind.text = "100"
     }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
