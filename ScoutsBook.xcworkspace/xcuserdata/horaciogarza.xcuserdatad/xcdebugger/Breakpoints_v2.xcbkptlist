@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ScoutsBook/LevelViewController.swift"
-            timestampString = "500685878.886959"
+            timestampString = "500693348.411685"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "39"
-            endingLineNumber = "39"
+            startingLineNumber = "56"
+            endingLineNumber = "56"
             landmarkName = "tableView(_:cellForRowAt:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -26,11 +26,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ScoutsBook/LevelViewController.swift"
-            timestampString = "500685878.886959"
+            timestampString = "500693348.411685"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "38"
-            endingLineNumber = "38"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
             landmarkName = "tableView(_:cellForRowAt:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -42,11 +42,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ScoutsBook/LevelTableViewCell.swift"
-            timestampString = "500688027.321735"
+            timestampString = "500693348.411685"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "22"
-            endingLineNumber = "22"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
             landmarkName = "awakeFromNib()"
             landmarkType = "7">
          </BreakpointContent>
