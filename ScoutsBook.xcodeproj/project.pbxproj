@@ -19,6 +19,7 @@
 		47192DED1DD8660600751F94 /* AlamofireImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47192DEC1DD8660600751F94 /* AlamofireImage.framework */; };
 		476959411DD88AE200D05294 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 476959401DD88AE200D05294 /* GoogleService-Info.plist */; };
 		477ECDF91DD89D98002EB54B /* LauncScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477ECDF81DD89D98002EB54B /* LauncScreenViewController.swift */; };
+		477ECDFB1DD8C351002EB54B /* TasksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477ECDFA1DD8C351002EB54B /* TasksViewController.swift */; };
 		479195381DD7AB0600DA1C97 /* VisualRecognitionV3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 479195371DD7AB0600DA1C97 /* VisualRecognitionV3.framework */; };
 		4791953E1DD7ACCF00DA1C97 /* LevelTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4791953D1DD7ACCF00DA1C97 /* LevelTableViewCell.swift */; };
 		479195461DD7AD2100DA1C97 /* LevelTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 479195451DD7AD2100DA1C97 /* LevelTableViewCell.xib */; };
@@ -119,6 +120,7 @@
 		47192DEC1DD8660600751F94 /* AlamofireImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlamofireImage.framework; path = "Pods/../build/Debug-iphoneos/AlamofireImage/AlamofireImage.framework"; sourceTree = "<group>"; };
 		476959401DD88AE200D05294 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		477ECDF81DD89D98002EB54B /* LauncScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LauncScreenViewController.swift; sourceTree = "<group>"; };
+		477ECDFA1DD8C351002EB54B /* TasksViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TasksViewController.swift; path = ScoutsBook/TasksViewController.swift; sourceTree = "<group>"; };
 		479195371DD7AB0600DA1C97 /* VisualRecognitionV3.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VisualRecognitionV3.framework; path = Carthage/Build/iOS/VisualRecognitionV3.framework; sourceTree = "<group>"; };
 		479195391DD7AB7200DA1C97 /* ChameleonFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ChameleonFramework.framework; path = "Pods/../build/Debug-iphoneos/ChameleonFramework/ChameleonFramework.framework"; sourceTree = "<group>"; };
 		4791953D1DD7ACCF00DA1C97 /* LevelTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LevelTableViewCell.swift; sourceTree = "<group>"; };
@@ -215,6 +217,7 @@
 		47F1CF0F1DD791AC0067121E = {
 			isa = PBXGroup;
 			children = (
+				477ECDFA1DD8C351002EB54B /* TasksViewController.swift */,
 				47F1CF1A1DD791AC0067121E /* ScoutsBook */,
 				47F1CF191DD791AC0067121E /* Products */,
 				643D5323631C8914C16D40B2 /* Pods */,
@@ -470,6 +473,7 @@
 				47192DB31DD7F53200751F94 /* Levels.swift in Sources */,
 				47F1CF1E1DD791AC0067121E /* ViewController.swift in Sources */,
 				8E68FE9F1DD80A6B0077006F /* userProfileViewController.swift in Sources */,
+				477ECDFB1DD8C351002EB54B /* TasksViewController.swift in Sources */,
 				47192DB71DD81CB800751F94 /* ProfileViewController.swift in Sources */,
 				47192DAF1DD7CB1400751F94 /* LevelViewController.swift in Sources */,
 				479195811DD7C06400DA1C97 /* CamaraViewController.swift in Sources */,
