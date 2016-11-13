@@ -68,6 +68,8 @@
 		8E68FE951DD79B740077006F /* Recents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E68FE941DD79B740077006F /* Recents.swift */; };
 		8E68FE9D1DD80A4B0077006F /* userProfile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E68FE9C1DD80A4B0077006F /* userProfile.storyboard */; };
 		8E68FE9F1DD80A6B0077006F /* userProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E68FE9E1DD80A6B0077006F /* userProfileViewController.swift */; };
+		8E68FECC1DD8B0B50077006F /* Record.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E68FECB1DD8B0B50077006F /* Record.storyboard */; };
+		8E68FECE1DD8B16D0077006F /* RecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E68FECD1DD8B16D0077006F /* RecordViewController.swift */; };
 		E6977225EAB3D201399237F9 /* Pods_ScoutsBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8312B15E34D046FFEAACC4BD /* Pods_ScoutsBook.framework */; };
 /* End PBXBuildFile section */
 
@@ -155,6 +157,8 @@
 		8E68FE941DD79B740077006F /* Recents.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Recents.swift; sourceTree = "<group>"; };
 		8E68FE9C1DD80A4B0077006F /* userProfile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = userProfile.storyboard; sourceTree = "<group>"; };
 		8E68FE9E1DD80A6B0077006F /* userProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = userProfileViewController.swift; sourceTree = "<group>"; };
+		8E68FECB1DD8B0B50077006F /* Record.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Record.storyboard; sourceTree = "<group>"; };
+		8E68FECD1DD8B16D0077006F /* RecordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -253,6 +257,7 @@
 				47192DAE1DD7CB1400751F94 /* LevelViewController.swift */,
 				8E68FE9E1DD80A6B0077006F /* userProfileViewController.swift */,
 				47192DBD1DD8386F00751F94 /* UserProfile.swift */,
+				8E68FECD1DD8B16D0077006F /* RecordViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -265,6 +270,7 @@
 				477ECDF81DD89D98002EB54B /* LauncScreenViewController.swift */,
 				479195821DD7C09300DA1C97 /* camara.storyboard */,
 				8E68FE9C1DD80A4B0077006F /* userProfile.storyboard */,
+				8E68FECB1DD8B0B50077006F /* Record.storyboard */,
 			);
 			name = Storyboards;
 			sourceTree = "<group>";
@@ -391,6 +397,7 @@
 				476959411DD88AE200D05294 /* GoogleService-Info.plist in Resources */,
 				47F1CF261DD791AC0067121E /* LaunchScreen.storyboard in Resources */,
 				8E68FE9D1DD80A4B0077006F /* userProfile.storyboard in Resources */,
+				8E68FECC1DD8B0B50077006F /* Record.storyboard in Resources */,
 				47F1CF231DD791AC0067121E /* Assets.xcassets in Resources */,
 				47192DBA1DD81E6B00751F94 /* Comfortaa-Regular.ttf in Resources */,
 				479195461DD7AD2100DA1C97 /* LevelTableViewCell.xib in Resources */,
@@ -458,6 +465,7 @@
 				8E68FE951DD79B740077006F /* Recents.swift in Sources */,
 				4791953E1DD7ACCF00DA1C97 /* LevelTableViewCell.swift in Sources */,
 				47192DBC1DD835AD00751F94 /* MainTabBarController.swift in Sources */,
+				8E68FECE1DD8B16D0077006F /* RecordViewController.swift in Sources */,
 				47192DB51DD81C6600751F94 /* CircularImage.swift in Sources */,
 				47192DB31DD7F53200751F94 /* Levels.swift in Sources */,
 				47F1CF1E1DD791AC0067121E /* ViewController.swift in Sources */,

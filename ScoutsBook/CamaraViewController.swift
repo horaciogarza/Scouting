@@ -19,8 +19,8 @@ import FCAlertView
 
 class CamaraViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate, FCAlertViewDelegate {
     
-    var selectedImageUrl: URL?
-    var selectedimage : UIImage?
+    var selectedImageUrl: String?
+    var bestResultString : String = "Unkown"
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -56,9 +56,6 @@ class CamaraViewController: UIViewController, UIImagePickerControllerDelegate, U
     }
     
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : Any]) {
-        selectedImageUrl = info[UIImagePickerControllerReferenceURL] as? URL
-        selectedimage = info[UIImagePickerControllerOriginalImage] as?  UIImage
-        
         
         if let imagen = info[UIImagePickerControllerOriginalImage] as? UIImage {
             uploadToFirebase(image: imagen)
@@ -89,6 +86,7 @@ class CamaraViewController: UIViewController, UIImagePickerControllerDelegate, U
                 print(metadata)
                 let downloadURL = metadata!.downloadURL()!.absoluteString
                 print(downloadURL)
+                self.selectedImageUrl = downloadURL
                 self.sendWatsonRequest(downloadURL)
             }
             
@@ -104,6 +102,7 @@ class CamaraViewController: UIViewController, UIImagePickerControllerDelegate, U
         let visualRecognition = VisualRecognition(apiKey: apiKey, version: version)
         
         var sucess : Bool = false
+        var bestResult : Double = 0.0
         //var results : String = "Resultados de la imagen\n\n"
         var results : String = ""
         visualRecognition.classify(image: url) { [unowned self] (classifiedImages) in
@@ -115,6 +114,10 @@ class CamaraViewController: UIViewController, UIImagePickerControllerDelegate, U
             for classification in classifiedImages.images[0].classifiers[0].classes{
                 results = results + "This image could be: \(classification.classification) \n probability: \(classification.score*100)% \n\n"
                 sucess = true
+                if classification.score*100 > bestResult {
+                    bestResult = classification.score*100
+                    self.bestResultString = classification.classification
+                }
             }
 
             print(results)
@@ -164,7 +167,13 @@ class CamaraViewController: UIViewController, UIImagePickerControllerDelegate, U
         if title == "Save" {
             print("Se Guardo")
             
-             let ref = FIRDatabase.database().reference(withPath: "recetas")
+            let ref = FIRDatabase.database().reference(withPath: "Record")
+            let imageName = "\(Int(Date().timeIntervalSince1970))"
+            let recetaItemRef = ref.child(imageName)
+            
+            let imagen : Recents = Recents(UserPin: 123, Image: selectedImageUrl!, Fecha: Date().description, Decripcion: self.bestResultString)
+            
+            recetaItemRef.setValue(imagen.toAnyObject())
             
             
         }else if title == "Don't Save"{
