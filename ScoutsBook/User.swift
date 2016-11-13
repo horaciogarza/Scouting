@@ -15,17 +15,17 @@ class User {
     
     static let sharedInstance = User(UserPin: 0, Email: "", Password: "", Name: "", Level: 0, CreationDate: "")
     
-    let key : String
-    let UserPin : Int
-    let Email : String
-    let Password : String?
-    let Name : String
-    let ProfilePicture : String?
-    let Level : Int
-    let Stars : Int
-    let CreationDate : String
-    let LastLogin : String?
-    let ref : FIRDatabaseReference?
+    var key : String
+    var UserPin : Int
+    var Email : String
+    var Password : String?
+    var Name : String
+    var ProfilePicture : String?
+    var Level : Int
+    var Stars : Int
+    var CreationDate : String
+    var LastLogin : String?
+    var ref : FIRDatabaseReference?
     
     
     init(UserPin: Int, Email: String, Password: String?, Name: String, Level: Int, CreationDate : String) {

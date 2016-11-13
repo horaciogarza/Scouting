@@ -33,6 +33,7 @@ class userProfileViewController: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
+        User.sharedInstance.Name = "Mark Zucaritas"
         userName.text = User.sharedInstance.Name
         progress.text = "Progress: 40%"
         userLevel.text = String(User.sharedInstance.Level)
