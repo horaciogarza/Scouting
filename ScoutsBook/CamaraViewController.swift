@@ -12,7 +12,10 @@ class CamaraViewController: UIViewController, UIImagePickerControllerDelegate, U
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
         takePhoto()
     }
     
@@ -35,25 +38,38 @@ class CamaraViewController: UIViewController, UIImagePickerControllerDelegate, U
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : Any]) {
         if let imagen = info[UIImagePickerControllerOriginalImage] as? UIImage {
             
-            UIImageWriteToSavedPhotosAlbum(imagen, self, #selector(fetchLastPhoto), nil)
+            UIImageWriteToSavedPhotosAlbum(imagen, self, #selector(self.getImageUrl(_:didFinishSavingWithError:contextInfo:)), nil)
             
+            //dismiss(animated: true, completion: nil)
+        }
+    }
+    
+    func getImageUrl(_ image: UIImage, didFinishSavingWithError error: Error?, contextInfo: UnsafeRawPointer) {
+        if let error = error {
+            // we got back an error!
+            let ac = UIAlertController(title: "Save error", message: error.localizedDescription, preferredStyle: .alert)
+            ac.addAction(UIAlertAction(title: "OK", style: .default))
+            present(ac, animated: true)
+        } else {
+            let fetchOptions = PHFetchOptions()
+            fetchOptions.sortDescriptors = [NSSortDescriptor(key: "creationDate", ascending: false)]
+            fetchOptions.fetchLimit = 1
             
+            let fetchResult = PHAsset.fetchAssets(with: .image, options: fetchOptions)
+            if (fetchResult.firstObject != nil)
+            {
+                let lastImageAsset = fetchResult.firstObject! as PHAsset
+                lastImageAsset.requestContentEditingInput(with: PHContentEditingInputRequestOptions()) { (input, _) in
+                    let url = input?.fullSizeImageURL
+                    print(url)
+                }
+                print(lastImageAsset)
+            }
             dismiss(animated: true, completion: nil)
         }
     }
     
-    func fetchLastPhoto() {
-        let fetchOptions = PHFetchOptions()
-        fetchOptions.sortDescriptors = [NSSortDescriptor(key: "creationDate", ascending: false)]
-        fetchOptions.fetchLimit = 1
-        
-        let fetchResult = PHAsset.fetchAssets(with: .image, options: fetchOptions)
-        if (fetchResult.firstObject != nil)
-        {
-            let lastImageAsset = fetchResult.firstObject
-            print(lastImageAsset)
-        }
-    }
+
     
     
     /*

@@ -15,22 +15,23 @@
             <rect key="frame" x="0.0" y="0.0" width="447" height="113"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
-                <rect key="frame" x="0.0" y="0.0" width="447" height="112"/>
+                <rect key="frame" x="0.0" y="0.0" width="447" height="112.5"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="LEVEL 1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Plp-gd-kjH">
-                        <rect key="frame" x="8" y="8" width="108" height="31"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <fontDescription key="fontDescription" type="system" pointSize="27"/>
-                        <nil key="textColor"/>
-                        <nil key="highlightedColor"/>
-                    </label>
-                    <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" fixedFrame="YES" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="uJc-jh-ky9">
-                        <rect key="frame" x="24" y="86" width="399" height="2"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    </progressView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="kP4-ny-BH3">
+                        <rect key="frame" x="0.0" y="0.0" width="447" height="112"/>
+                    </imageView>
                 </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="kP4-ny-BH3" secondAttribute="trailing" id="BEI-oW-6Tm"/>
+                    <constraint firstItem="kP4-ny-BH3" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="Bzr-uX-Fgu"/>
+                    <constraint firstAttribute="bottom" secondItem="kP4-ny-BH3" secondAttribute="bottom" id="cWj-pP-7TD"/>
+                    <constraint firstItem="kP4-ny-BH3" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="n7U-xm-lyZ"/>
+                </constraints>
             </tableViewCellContentView>
+            <connections>
+                <outlet property="levelImage" destination="kP4-ny-BH3" id="kdy-aF-Iez"/>
+            </connections>
             <point key="canvasLocation" x="-29.5" y="88.5"/>
         </tableViewCell>
     </objects>
