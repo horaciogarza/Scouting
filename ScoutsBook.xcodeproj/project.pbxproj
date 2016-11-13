@@ -14,10 +14,6 @@
 		47192DBA1DD81E6B00751F94 /* Comfortaa-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 47192DB91DD81E6B00751F94 /* Comfortaa-Regular.ttf */; };
 		47192DBC1DD835AD00751F94 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47192DBB1DD835AD00751F94 /* MainTabBarController.swift */; };
 		47192DBE1DD8386F00751F94 /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47192DBD1DD8386F00751F94 /* UserProfile.swift */; };
-		47192DC31DD83D5C00751F94 /* AWSDynamoDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47192DC01DD83D5C00751F94 /* AWSDynamoDB.framework */; };
-		47192DC41DD83D5C00751F94 /* AWSS3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47192DC11DD83D5C00751F94 /* AWSS3.framework */; };
-		47192DD11DD843F800751F94 /* AWSDynamoDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47192DC01DD83D5C00751F94 /* AWSDynamoDB.framework */; };
-		47192DD31DD843F800751F94 /* AWSS3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47192DC11DD83D5C00751F94 /* AWSS3.framework */; };
 		47192DD81DD8462200751F94 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 47192DD71DD8462200751F94 /* libsqlite3.tbd */; };
 		47192DDA1DD8462E00751F94 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 47192DD91DD8462E00751F94 /* libz.tbd */; };
 		47192DED1DD8660600751F94 /* AlamofireImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47192DEC1DD8660600751F94 /* AlamofireImage.framework */; };
@@ -167,9 +163,6 @@
 				47192DED1DD8660600751F94 /* AlamofireImage.framework in Frameworks */,
 				47192DDA1DD8462E00751F94 /* libz.tbd in Frameworks */,
 				47192DD81DD8462200751F94 /* libsqlite3.tbd in Frameworks */,
-				47192DC31DD83D5C00751F94 /* AWSDynamoDB.framework in Frameworks */,
-				47192DD31DD843F800751F94 /* AWSS3.framework in Frameworks */,
-				47192DC41DD83D5C00751F94 /* AWSS3.framework in Frameworks */,
 				479195601DD7BA4300DA1C97 /* LanguageTranslatorV2.framework in Frameworks */,
 				479195611DD7BA4300DA1C97 /* ToneAnalyzerV3.framework in Frameworks */,
 				479195621DD7BA4300DA1C97 /* RelationshipExtractionV1Beta.framework in Frameworks */,
@@ -183,7 +176,6 @@
 				4791956A1DD7BA4300DA1C97 /* AlchemyLanguageV1.framework in Frameworks */,
 				4791956B1DD7BA4300DA1C97 /* ConversationV1.framework in Frameworks */,
 				4791956C1DD7BA4300DA1C97 /* TradeoffAnalyticsV1.framework in Frameworks */,
-				47192DD11DD843F800751F94 /* AWSDynamoDB.framework in Frameworks */,
 				4791956D1DD7BA4300DA1C97 /* TextToSpeechV1.framework in Frameworks */,
 				4791956E1DD7BA4300DA1C97 /* AlchemyDataNewsV1.framework in Frameworks */,
 				4791956F1DD7BA4300DA1C97 /* SpeechToTextV1.framework in Frameworks */,
