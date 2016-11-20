@@ -2,7 +2,7 @@
 ======
 **Scouting** is an educative mobile app for those who like to explore. 
 
-:trophy: Hackathon Winner
+:trophy: Hackathon Winner :trophy:
 
 #### Screenshot
 
