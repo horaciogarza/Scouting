@@ -113,12 +113,12 @@ class CamaraViewController: UIViewController, UIImagePickerControllerDelegate, U
     func analyzeFromURLDidPush(_ url: String) {
         
         let analyzeImage = CognitiveServices.sharedInstance.analyzeImage
-        let visualFeatures: [AnalyzeImage.AnalyzeImageVisualFeatures] = [.Categories, .Description, .Faces, .ImageType, .Color, .Adult]
+        let visualFeatures: [AnalyzeImage.AnalyzeImageVisualFeatures] = [.Categories, .Description, .Faces]
         let requestObject: AnalyzeImageRequestObject = (url, visualFeatures)
         
         try! analyzeImage.analyzeImageWithRequestObject(requestObject, completion: { (response) in
             DispatchQueue.main.async(execute: {
-                print(response?.descriptionText)
+                print(response ?? "No trajo Resultado")
             })
         })
         
