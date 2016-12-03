@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "90398121E335D99E02C833A1E9E8C0DAEEA5C592",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "AB7C07614AFEAD205E0A381A6E0D0D29DE5DA33D" : 9223372036854775807,
+    "90398121E335D99E02C833A1E9E8C0DAEEA5C592" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "411822D0-C9C8-480C-AA17-BBD9D90EB1F5",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "AB7C07614AFEAD205E0A381A6E0D0D29DE5DA33D" : "ScoutsBook\/Microsoft-Cognitive-Services-Swift-SDK\/",
+    "90398121E335D99E02C833A1E9E8C0DAEEA5C592" : "ScoutsBook\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "ScoutsBook",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ScoutsBook.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/horaciogarza\/ScoutsBook.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "90398121E335D99E02C833A1E9E8C0DAEEA5C592"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/DanilaVladi\/Microsoft-Cognitive-Services-Swift-SDK.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "AB7C07614AFEAD205E0A381A6E0D0D29DE5DA33D"
+    }
+  ]
+}

@@ -7,14 +7,13 @@
 //
 import UIKit
 import Photos
-import VisualRecognitionV3
-//import AWSCore
-//import AWSS3
-import AlamofireImage
+//import VisualRecognitionV3
+
 import Alamofire
 import FirebaseStorage
 import FirebaseDatabase
 import FCAlertView
+
 
 
 class CamaraViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate, FCAlertViewDelegate {
@@ -99,11 +98,11 @@ class CamaraViewController: UIViewController, UIImagePickerControllerDelegate, U
                 // Uh-oh, an error occurred!
                 print(error!.localizedDescription)
             }else{
-                print(metadata)
+                print(metadata ?? "there's nothing")
                 let downloadURL = metadata!.downloadURL()!.absoluteString
                 print(downloadURL)
                 self.selectedImageUrl = downloadURL
-                self.sendWatsonRequest(downloadURL)
+                self.analyzeFromURLDidPush(downloadURL)
             }
             
         })
@@ -111,7 +110,22 @@ class CamaraViewController: UIViewController, UIImagePickerControllerDelegate, U
         
     }
     
-    func sendWatsonRequest(_ url: String){
+    func analyzeFromURLDidPush(_ url: String) {
+        
+        let analyzeImage = CognitiveServices.sharedInstance.analyzeImage
+        let visualFeatures: [AnalyzeImage.AnalyzeImageVisualFeatures] = [.Categories, .Description, .Faces, .ImageType, .Color, .Adult]
+        let requestObject: AnalyzeImageRequestObject = (url, visualFeatures)
+        
+        try! analyzeImage.analyzeImageWithRequestObject(requestObject, completion: { (response) in
+            DispatchQueue.main.async(execute: {
+                print(response?.descriptionText)
+            })
+        })
+        
+        
+    }
+    
+    /*func sendWatsonRequest(_ url: String){
         
         let apiKey = "e9b2d83b02a794c8c61219fd956725815d55110a"
         let version = "2016-11-05" // use today's date for the most recent version
@@ -121,20 +135,17 @@ class CamaraViewController: UIViewController, UIImagePickerControllerDelegate, U
         var bestResult : Double = 0.0
         //var results : String = "Resultados de la imagen\n\n"
         var results : String = ""
-        visualRecognition.classify(image: url) { [unowned self] (classifiedImages) in
+        //visualRecognition.classify(image: url) { [unowned self] (classifiedImages) in
             
-            /*for classification in classifiedImages.images{
-             print(classification.classifiers)
-             }*/
             
-            for classification in classifiedImages.images[0].classifiers[0].classes{
-                results = results + "This image could be: \(classification.classification) \n probability: \(classification.score*100)% \n\n"
-                sucess = true
-                if classification.score*100 > bestResult {
-                    bestResult = classification.score*100
-                    self.bestResultString = classification.classification
-                }
-            }
+//            for classification in classifiedImages.images[0].classifiers[0].classes{
+//                results = results + "This image could be: \(classification.classification) \n probability: \(classification.score*100)% \n\n"
+//                sucess = true
+//                if classification.score*100 > bestResult {
+//                    bestResult = classification.score*100
+//                    self.bestResultString = classification.classification
+//                }
+//            }
 
             print(results)
             //lo cambias al main para que se pueda mostrar, si no truena.
@@ -174,7 +185,7 @@ class CamaraViewController: UIViewController, UIImagePickerControllerDelegate, U
                 }
             }
             
-        }
+        }*/
         //
         
     }
@@ -187,9 +198,9 @@ class CamaraViewController: UIViewController, UIImagePickerControllerDelegate, U
             let imageName = "\(Int(Date().timeIntervalSince1970))"
             let recetaItemRef = ref.child(imageName)
             
-            let imagen : Recents = Recents(UserPin: 123, Image: selectedImageUrl!, Fecha: Date().description, Decripcion: self.bestResultString)
+//            let imagen : Recents = Recents(UserPin: 123, Image: selectedImageUrl!, Fecha: Date().description, Decripcion: self.bestResultString)
             
-            recetaItemRef.setValue(imagen.toAnyObject())
+            //recetaItemRef.setValue(imagen.toAnyObject())
             
             
         }else if title == "Don't Save"{
@@ -204,6 +215,6 @@ class CamaraViewController: UIViewController, UIImagePickerControllerDelegate, U
     //MARK: Alamofire
     
     
-}
+
 
 

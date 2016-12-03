@@ -26,13 +26,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TAREAS - BACKGROUD" translatesAutoresizingMaskIntoConstraints="NO" id="OCB-rh-C7m">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LOGOTIPO" translatesAutoresizingMaskIntoConstraints="NO" id="OCB-rh-C7m">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Appdromeda" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dyK-gP-x9v">
-                                <rect key="frame" x="27" y="308" width="321" height="51"/>
-                                <fontDescription key="fontDescription" name="Comfortaa" family="Comfortaa" pointSize="50"/>
-                                <nil key="textColor"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="By: Appdromeda" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dyK-gP-x9v">
+                                <rect key="frame" x="87" y="476" width="200" height="25.5"/>
+                                <fontDescription key="fontDescription" name="Comfortaa" family="Comfortaa" pointSize="25"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -42,7 +42,7 @@
                             <constraint firstItem="dyK-gP-x9v" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="AY6-Wr-akK"/>
                             <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="OCB-rh-C7m" secondAttribute="bottom" id="IE2-2G-ayb"/>
                             <constraint firstItem="OCB-rh-C7m" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="SaX-sL-gIX"/>
-                            <constraint firstItem="dyK-gP-x9v" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="nkO-ci-iMS"/>
+                            <constraint firstItem="dyK-gP-x9v" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" constant="155" id="nkO-ci-iMS"/>
                             <constraint firstAttribute="trailing" secondItem="OCB-rh-C7m" secondAttribute="trailing" id="pCk-0C-JmN"/>
                         </constraints>
                     </view>
@@ -53,6 +53,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="TAREAS - BACKGROUD" width="1242" height="2208"/>
+        <image name="LOGOTIPO" width="621" height="1104"/>
     </resources>
 </document>
