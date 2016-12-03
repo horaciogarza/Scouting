@@ -10,12 +10,1067 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ScoutsBook/CamaraViewController.swift"
-            timestampString = "502483699.710412"
+            timestampString = "502498111.197869"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "121"
             endingLineNumber = "121"
             landmarkName = "analyzeFromURLDidPush(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ScoutsBook/SDK/CognitiveServices/ComputerVision/AnalyzeImage.swift"
+            timestampString = "502499506.76725"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "293"
+            endingLineNumber = "293"
+            landmarkName = "objectFromDict(_:data:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ScoutsBook/SDK/CognitiveServices/ComputerVision/AnalyzeImage.swift"
+            timestampString = "502499568.292135"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "306"
+            endingLineNumber = "306"
+            landmarkName = "objectFromDict(_:data:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ScoutsBook/SDK/CognitiveServices/ComputerVision/AnalyzeImage.swift"
+            timestampString = "502501129.46954"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "356"
+            endingLineNumber = "356"
+            landmarkName = "objectFromDict(_:data:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ScoutsBook/SDK/CognitiveServices/ComputerVision/AnalyzeImage.swift"
+            timestampString = "502501129.46954"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "362"
+            endingLineNumber = "362"
+            landmarkName = "objectFromDict(_:data:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ScoutsBook.AnalyzeImage.(objectFromDict in _F6DD7DEF1AB8A49EEC57892F12380400) (Swift.Optional&lt;Swift.Dictionary&lt;Swift.String, Swift.AnyObject&gt;&gt;, data : Foundation.Data) -&gt; ScoutsBook.AnalyzeImage.AnalyzeImageObject"
+                  moduleName = "ScoutsBook"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Barcenas/Documents/Xcode/Scouting/ScoutsBook/SDK/CognitiveServices/ComputerVision/AnalyzeImage.swift"
+                  timestampString = "502501364.145756"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "362"
+                  endingLineNumber = "362"
+                  offsetFromSymbolStart = "7372">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ScoutsBook.AnalyzeImage.(objectFromDict in _F6DD7DEF1AB8A49EEC57892F12380400) (Swift.Optional&lt;Swift.Dictionary&lt;Swift.String, Swift.AnyObject&gt;&gt;, data : Foundation.Data) -&gt; ScoutsBook.AnalyzeImage.AnalyzeImageObject"
+                  moduleName = "ScoutsBook"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Barcenas/Documents/Xcode/Scouting/ScoutsBook/SDK/CognitiveServices/ComputerVision/AnalyzeImage.swift"
+                  timestampString = "502501364.147403"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "362"
+                  endingLineNumber = "362"
+                  offsetFromSymbolStart = "7828">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ScoutsBook/SDK/CognitiveServices/ComputerVision/AnalyzeImage.swift"
+            timestampString = "502499960.959505"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "277"
+            endingLineNumber = "277"
+            landmarkName = "objectFromDict(_:data:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ScoutsBook/SDK/CognitiveServices/ComputerVision/AnalyzeImage.swift"
+            timestampString = "502501129.46954"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "375"
+            endingLineNumber = "375"
+            landmarkName = "objectFromDict(_:data:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ScoutsBook/SDK/CognitiveServices/ComputerVision/AnalyzeImage.swift"
+            timestampString = "502500456.509684"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "313"
+            endingLineNumber = "313"
+            landmarkName = "objectFromDict(_:data:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ScoutsBook/SDK/CognitiveServices/ComputerVision/AnalyzeImage.swift"
+            timestampString = "502500480.034894"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "316"
+            endingLineNumber = "316"
+            landmarkName = "objectFromDict(_:data:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ScoutsBook/SDK/CognitiveServices/ComputerVision/AnalyzeImage.swift"
+            timestampString = "502501129.46954"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "372"
+            endingLineNumber = "372"
+            landmarkName = "objectFromDict(_:data:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ScoutsBook/SDK/CognitiveServices/ComputerVision/AnalyzeImage.swift"
+            timestampString = "502501129.46954"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "371"
+            endingLineNumber = "371"
+            landmarkName = "objectFromDict(_:data:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ScoutsBook/SDK/CognitiveServices/ComputerVision/AnalyzeImage.swift"
+            timestampString = "502500629.361138"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "AnalyzeImageObject"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ScoutsBook.AnalyzeImage.AnalyzeImageObject.categories.getter : Swift.Optional&lt;Swift.Array&lt;Swift.Dictionary&lt;Swift.String, Swift.AnyObject&gt;&gt;&gt;"
+                  moduleName = "ScoutsBook"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Barcenas/Documents/Xcode/Scouting/ScoutsBook/SDK/CognitiveServices/ComputerVision/AnalyzeImage.swift"
+                  timestampString = "502501364.168666"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ScoutsBook.AnalyzeImage.AnalyzeImageObject.categories.setter : Swift.Optional&lt;Swift.Array&lt;Swift.Dictionary&lt;Swift.String, Swift.AnyObject&gt;&gt;&gt;"
+                  moduleName = "ScoutsBook"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Barcenas/Documents/Xcode/Scouting/ScoutsBook/SDK/CognitiveServices/ComputerVision/AnalyzeImage.swift"
+                  timestampString = "502501364.170305"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "76">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ScoutsBook.AnalyzeImage.AnalyzeImageObject.init () -&gt; ScoutsBook.AnalyzeImage.AnalyzeImageObject"
+                  moduleName = "ScoutsBook"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Barcenas/Documents/Xcode/Scouting/ScoutsBook/SDK/CognitiveServices/ComputerVision/AnalyzeImage.swift"
+                  timestampString = "502501364.171922"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "24">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ScoutsBook/SDK/CognitiveServices/ComputerVision/AnalyzeImage.swift"
+            timestampString = "502501184.782314"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "187"
+            endingLineNumber = "187"
+            landmarkName = "analyzeImageWithRequestObject(_:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ScoutsBook/SDK/CognitiveServices/ComputerVision/AnalyzeImage.swift"
+            timestampString = "502501186.478174"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "189"
+            endingLineNumber = "189"
+            landmarkName = "analyzeImageWithRequestObject(_:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ScoutsBook/SDK/CognitiveServices/ComputerVision/AnalyzeImage.swift"
+            timestampString = "502501205.263643"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "255"
+            endingLineNumber = "255"
+            landmarkName = "objectFromDict(_:data:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ScoutsBook/SDK/CognitiveServices/ComputerVision/AnalyzeImage.swift"
+            timestampString = "502501209.13166"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "190"
+            endingLineNumber = "190"
+            landmarkName = "analyzeImageWithRequestObject(_:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ScoutsBook.AnalyzeImage.analyzeImageWithRequestObject ((resource : Any, visualFeatures : Swift.Array&lt;ScoutsBook.AnalyzeImage.AnalyzeImageVisualFeatures&gt;), completion : (Swift.Optional&lt;ScoutsBook.AnalyzeImage.AnalyzeImageObject&gt;) -&gt; ()) throws -&gt; ()"
+                  moduleName = "ScoutsBook"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Barcenas/Documents/Xcode/Scouting/ScoutsBook/SDK/CognitiveServices/ComputerVision/AnalyzeImage.swift"
+                  timestampString = "502501364.184737"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "190"
+                  endingLineNumber = "190"
+                  offsetFromSymbolStart = "264">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ScoutsBook.AnalyzeImage.(analyzeImageWithRequestObject ((resource : Any, visualFeatures : Swift.Array&lt;ScoutsBook.AnalyzeImage.AnalyzeImageVisualFeatures&gt;), completion : (Swift.Optional&lt;ScoutsBook.AnalyzeImage.AnalyzeImageObject&gt;) -&gt; ()) throws -&gt; ()).(implicit closure #1)"
+                  moduleName = "ScoutsBook"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Barcenas/Documents/Xcode/Scouting/ScoutsBook/SDK/CognitiveServices/ComputerVision/AnalyzeImage.swift"
+                  timestampString = "502501364.186385"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "190"
+                  endingLineNumber = "190"
+                  offsetFromSymbolStart = "8">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ScoutsBook/SDK/CognitiveServices/ComputerVision/AnalyzeImage.swift"
+            timestampString = "502501267.006121"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "346"
+            endingLineNumber = "346"
+            landmarkName = "objectFromDict(_:data:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ScoutsBook.AnalyzeImage.(objectFromDict in _F6DD7DEF1AB8A49EEC57892F12380400) (Swift.Optional&lt;Swift.Dictionary&lt;Swift.String, Swift.AnyObject&gt;&gt;, data : Foundation.Data) -&gt; ScoutsBook.AnalyzeImage.AnalyzeImageObject"
+                  moduleName = "ScoutsBook"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Barcenas/Documents/Xcode/Scouting/ScoutsBook/SDK/CognitiveServices/ComputerVision/AnalyzeImage.swift"
+                  timestampString = "502501364.189764"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "346"
+                  endingLineNumber = "346"
+                  offsetFromSymbolStart = "4712">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ScoutsBook.AnalyzeImage.(objectFromDict in _F6DD7DEF1AB8A49EEC57892F12380400) (Swift.Optional&lt;Swift.Dictionary&lt;Swift.String, Swift.AnyObject&gt;&gt;, data : Foundation.Data) -&gt; ScoutsBook.AnalyzeImage.AnalyzeImageObject"
+                  moduleName = "ScoutsBook"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Barcenas/Documents/Xcode/Scouting/ScoutsBook/SDK/CognitiveServices/ComputerVision/AnalyzeImage.swift"
+                  timestampString = "502501364.191416"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "346"
+                  endingLineNumber = "346"
+                  offsetFromSymbolStart = "5168">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ScoutsBook/SDK/CognitiveServices/ComputerVision/AnalyzeImage.swift"
+            timestampString = "502501268.645677"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "341"
+            endingLineNumber = "341"
+            landmarkName = "objectFromDict(_:data:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ScoutsBook.AnalyzeImage.(objectFromDict in _F6DD7DEF1AB8A49EEC57892F12380400) (Swift.Optional&lt;Swift.Dictionary&lt;Swift.String, Swift.AnyObject&gt;&gt;, data : Foundation.Data) -&gt; ScoutsBook.AnalyzeImage.AnalyzeImageObject"
+                  moduleName = "ScoutsBook"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Barcenas/Documents/Xcode/Scouting/ScoutsBook/SDK/CognitiveServices/ComputerVision/AnalyzeImage.swift"
+                  timestampString = "502501364.194813"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "341"
+                  endingLineNumber = "341"
+                  offsetFromSymbolStart = "3872">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ScoutsBook.AnalyzeImage.(objectFromDict in _F6DD7DEF1AB8A49EEC57892F12380400) (Swift.Optional&lt;Swift.Dictionary&lt;Swift.String, Swift.AnyObject&gt;&gt;, data : Foundation.Data) -&gt; ScoutsBook.AnalyzeImage.AnalyzeImageObject"
+                  moduleName = "ScoutsBook"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Barcenas/Documents/Xcode/Scouting/ScoutsBook/SDK/CognitiveServices/ComputerVision/AnalyzeImage.swift"
+                  timestampString = "502501364.196463"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "341"
+                  endingLineNumber = "341"
+                  offsetFromSymbolStart = "4328">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ScoutsBook/SDK/CognitiveServices/ComputerVision/AnalyzeImage.swift"
+            timestampString = "502501271.131395"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "328"
+            endingLineNumber = "328"
+            landmarkName = "objectFromDict(_:data:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ScoutsBook.AnalyzeImage.(objectFromDict in _F6DD7DEF1AB8A49EEC57892F12380400) (Swift.Optional&lt;Swift.Dictionary&lt;Swift.String, Swift.AnyObject&gt;&gt;, data : Foundation.Data) -&gt; ScoutsBook.AnalyzeImage.AnalyzeImageObject"
+                  moduleName = "ScoutsBook"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Barcenas/Documents/Xcode/Scouting/ScoutsBook/SDK/CognitiveServices/ComputerVision/AnalyzeImage.swift"
+                  timestampString = "502501364.199784"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "328"
+                  endingLineNumber = "328"
+                  offsetFromSymbolStart = "2048">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ScoutsBook.AnalyzeImage.(objectFromDict in _F6DD7DEF1AB8A49EEC57892F12380400) (Swift.Optional&lt;Swift.Dictionary&lt;Swift.String, Swift.AnyObject&gt;&gt;, data : Foundation.Data) -&gt; ScoutsBook.AnalyzeImage.AnalyzeImageObject"
+                  moduleName = "ScoutsBook"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Barcenas/Documents/Xcode/Scouting/ScoutsBook/SDK/CognitiveServices/ComputerVision/AnalyzeImage.swift"
+                  timestampString = "502501364.201414"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "328"
+                  endingLineNumber = "328"
+                  offsetFromSymbolStart = "2504">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ScoutsBook/SDK/CognitiveServices/ComputerVision/AnalyzeImage.swift"
+            timestampString = "502501272.803196"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "331"
+            endingLineNumber = "331"
+            landmarkName = "objectFromDict(_:data:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ScoutsBook.AnalyzeImage.(objectFromDict in _F6DD7DEF1AB8A49EEC57892F12380400) (Swift.Optional&lt;Swift.Dictionary&lt;Swift.String, Swift.AnyObject&gt;&gt;, data : Foundation.Data) -&gt; ScoutsBook.AnalyzeImage.AnalyzeImageObject"
+                  moduleName = "ScoutsBook"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Barcenas/Documents/Xcode/Scouting/ScoutsBook/SDK/CognitiveServices/ComputerVision/AnalyzeImage.swift"
+                  timestampString = "502501364.20472"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "331"
+                  endingLineNumber = "331"
+                  offsetFromSymbolStart = "2684">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ScoutsBook.AnalyzeImage.(objectFromDict in _F6DD7DEF1AB8A49EEC57892F12380400) (Swift.Optional&lt;Swift.Dictionary&lt;Swift.String, Swift.AnyObject&gt;&gt;, data : Foundation.Data) -&gt; ScoutsBook.AnalyzeImage.AnalyzeImageObject"
+                  moduleName = "ScoutsBook"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Barcenas/Documents/Xcode/Scouting/ScoutsBook/SDK/CognitiveServices/ComputerVision/AnalyzeImage.swift"
+                  timestampString = "502501364.206371"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "331"
+                  endingLineNumber = "331"
+                  offsetFromSymbolStart = "2980">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ScoutsBook/SDK/CognitiveServices/ComputerVision/AnalyzeImage.swift"
+            timestampString = "502501280.264579"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "268"
+            endingLineNumber = "268"
+            landmarkName = "objectFromDict(_:data:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ScoutsBook/SDK/CognitiveServices/ComputerVision/AnalyzeImage.swift"
+            timestampString = "502501281.234257"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "265"
+            endingLineNumber = "265"
+            landmarkName = "objectFromDict(_:data:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ScoutsBook.AnalyzeImage.(objectFromDict in _F6DD7DEF1AB8A49EEC57892F12380400) (Swift.Optional&lt;Swift.Dictionary&lt;Swift.String, Swift.AnyObject&gt;&gt;, data : Foundation.Data) -&gt; ScoutsBook.AnalyzeImage.AnalyzeImageObject"
+                  moduleName = "ScoutsBook"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Barcenas/Documents/Xcode/Scouting/ScoutsBook/SDK/CognitiveServices/ComputerVision/AnalyzeImage.swift"
+                  timestampString = "502501364.212977"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "265"
+                  endingLineNumber = "265"
+                  offsetFromSymbolStart = "836">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ScoutsBook.AnalyzeImage.(objectFromDict in _F6DD7DEF1AB8A49EEC57892F12380400) (Swift.Optional&lt;Swift.Dictionary&lt;Swift.String, Swift.AnyObject&gt;&gt;, data : Foundation.Data) -&gt; ScoutsBook.AnalyzeImage.AnalyzeImageObject"
+                  moduleName = "ScoutsBook"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Barcenas/Documents/Xcode/Scouting/ScoutsBook/SDK/CognitiveServices/ComputerVision/AnalyzeImage.swift"
+                  timestampString = "502501364.214612"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "265"
+                  endingLineNumber = "265"
+                  offsetFromSymbolStart = "1260">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ScoutsBook/SDK/CognitiveServices/ComputerVision/AnalyzeImage.swift"
+            timestampString = "502501282.745885"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "260"
+            endingLineNumber = "260"
+            landmarkName = "objectFromDict(_:data:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ScoutsBook.AnalyzeImage.(objectFromDict in _F6DD7DEF1AB8A49EEC57892F12380400) (Swift.Optional&lt;Swift.Dictionary&lt;Swift.String, Swift.AnyObject&gt;&gt;, data : Foundation.Data) -&gt; ScoutsBook.AnalyzeImage.AnalyzeImageObject"
+                  moduleName = "ScoutsBook"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Barcenas/Documents/Xcode/Scouting/ScoutsBook/SDK/CognitiveServices/ComputerVision/AnalyzeImage.swift"
+                  timestampString = "502501364.217993"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "260"
+                  endingLineNumber = "260"
+                  offsetFromSymbolStart = "292">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ScoutsBook.AnalyzeImage.(objectFromDict in _F6DD7DEF1AB8A49EEC57892F12380400) (Swift.Optional&lt;Swift.Dictionary&lt;Swift.String, Swift.AnyObject&gt;&gt;, data : Foundation.Data) -&gt; ScoutsBook.AnalyzeImage.AnalyzeImageObject"
+                  moduleName = "ScoutsBook"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Barcenas/Documents/Xcode/Scouting/ScoutsBook/SDK/CognitiveServices/ComputerVision/AnalyzeImage.swift"
+                  timestampString = "502501364.219635"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "260"
+                  endingLineNumber = "260"
+                  offsetFromSymbolStart = "720">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ScoutsBook/SDK/CognitiveServices/ComputerVision/AnalyzeImage.swift"
+            timestampString = "502501286.590745"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "229"
+            endingLineNumber = "229"
+            landmarkName = "analyzeImageWithRequestObject(_:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ScoutsBook.AnalyzeImage.analyzeImageWithRequestObject ((resource : Any, visualFeatures : Swift.Array&lt;ScoutsBook.AnalyzeImage.AnalyzeImageVisualFeatures&gt;), completion : (Swift.Optional&lt;ScoutsBook.AnalyzeImage.AnalyzeImageObject&gt;) -&gt; ()) throws -&gt; ()"
+                  moduleName = "ScoutsBook"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Barcenas/Documents/Xcode/Scouting/ScoutsBook/SDK/CognitiveServices/ComputerVision/AnalyzeImage.swift"
+                  timestampString = "502501364.223042"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "229"
+                  endingLineNumber = "229"
+                  offsetFromSymbolStart = "3588">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ScoutsBook.AnalyzeImage.(analyzeImageWithRequestObject ((resource : Any, visualFeatures : Swift.Array&lt;ScoutsBook.AnalyzeImage.AnalyzeImageVisualFeatures&gt;), completion : (Swift.Optional&lt;ScoutsBook.AnalyzeImage.AnalyzeImageObject&gt;) -&gt; ()) throws -&gt; ()).(closure #2)"
+                  moduleName = "ScoutsBook"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Barcenas/Documents/Xcode/Scouting/ScoutsBook/SDK/CognitiveServices/ComputerVision/AnalyzeImage.swift"
+                  timestampString = "502501364.224684"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "230"
+                  endingLineNumber = "230"
+                  offsetFromSymbolStart = "48">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ScoutsBook/SDK/CognitiveServices/ComputerVision/AnalyzeImage.swift"
+            timestampString = "502501287.641011"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "227"
+            endingLineNumber = "227"
+            landmarkName = "analyzeImageWithRequestObject(_:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ScoutsBook/SDK/CognitiveServices/ComputerVision/AnalyzeImage.swift"
+            timestampString = "502501290.355241"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "224"
+            endingLineNumber = "224"
+            landmarkName = "analyzeImageWithRequestObject(_:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ScoutsBook/SDK/CognitiveServices/ComputerVision/AnalyzeImage.swift"
+            timestampString = "502501293.258109"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "206"
+            endingLineNumber = "206"
+            landmarkName = "analyzeImageWithRequestObject(_:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ScoutsBook/SDK/CognitiveServices/ComputerVision/AnalyzeImage.swift"
+            timestampString = "502501308.718918"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "145"
+            endingLineNumber = "145"
+            landmarkName = "AnalyzeImageDetails"
+            landmarkType = "13">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ScoutsBook.AnalyzeImage.AnalyzeImageDetails.init (rawValue : Swift.String) -&gt; Swift.Optional&lt;ScoutsBook.AnalyzeImage.AnalyzeImageDetails&gt;"
+                  moduleName = "ScoutsBook"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Barcenas/Documents/Xcode/Scouting/ScoutsBook/SDK/CognitiveServices/ComputerVision/AnalyzeImage.swift"
+                  timestampString = "502501364.237076"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "146"
+                  endingLineNumber = "146"
+                  offsetFromSymbolStart = "44">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ScoutsBook.AnalyzeImage.AnalyzeImageDetails.rawValue.getter : Swift.String"
+                  moduleName = "ScoutsBook"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Barcenas/Documents/Xcode/Scouting/ScoutsBook/SDK/CognitiveServices/ComputerVision/AnalyzeImage.swift"
+                  timestampString = "502501364.238728"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "146"
+                  endingLineNumber = "146"
+                  offsetFromSymbolStart = "44">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ScoutsBook/SDK/CognitiveServices/ComputerVision/AnalyzeImage.swift"
+            timestampString = "502501325.421657"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "352"
+            endingLineNumber = "352"
+            landmarkName = "objectFromDict(_:data:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ScoutsBook.AnalyzeImage.(objectFromDict in _F6DD7DEF1AB8A49EEC57892F12380400) (Swift.Optional&lt;Swift.Dictionary&lt;Swift.String, Swift.AnyObject&gt;&gt;, data : Foundation.Data) -&gt; ScoutsBook.AnalyzeImage.AnalyzeImageObject"
+                  moduleName = "ScoutsBook"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Barcenas/Documents/Xcode/Scouting/ScoutsBook/SDK/CognitiveServices/ComputerVision/AnalyzeImage.swift"
+                  timestampString = "502501364.242109"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "352"
+                  endingLineNumber = "352"
+                  offsetFromSymbolStart = "5628">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ScoutsBook.AnalyzeImage.(objectFromDict in _F6DD7DEF1AB8A49EEC57892F12380400) (Swift.Optional&lt;Swift.Dictionary&lt;Swift.String, Swift.AnyObject&gt;&gt;, data : Foundation.Data) -&gt; ScoutsBook.AnalyzeImage.AnalyzeImageObject"
+                  moduleName = "ScoutsBook"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Barcenas/Documents/Xcode/Scouting/ScoutsBook/SDK/CognitiveServices/ComputerVision/AnalyzeImage.swift"
+                  timestampString = "502501364.243743"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "352"
+                  endingLineNumber = "352"
+                  offsetFromSymbolStart = "5880">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ScoutsBook/SDK/CognitiveServices/ComputerVision/AnalyzeImage.swift"
+            timestampString = "502501341.773847"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "386"
+            endingLineNumber = "386"
+            landmarkName = "getEmotions(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ScoutsBook/SDK/CognitiveServices/ComputerVision/AnalyzeImage.swift"
+            timestampString = "502501345.257804"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "435"
+            endingLineNumber = "435"
+            landmarkName = "createTestFace()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ScoutsBook/SDK/CognitiveServices/ComputerVision/AnalyzeImage.swift"
+            timestampString = "502501348.789978"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "406"
+            endingLineNumber = "406"
+            landmarkName = "getEmotions(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ScoutsBook.AnalyzeImage.AnalyzeImageObject.getEmotions ((Swift.Optional&lt;Swift.Array&lt;Swift.Dictionary&lt;Swift.String, Swift.AnyObject&gt;&gt;&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "ScoutsBook"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Barcenas/Documents/Xcode/Scouting/ScoutsBook/SDK/CognitiveServices/ComputerVision/AnalyzeImage.swift"
+                  timestampString = "502501364.253106"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "406"
+                  endingLineNumber = "406"
+                  offsetFromSymbolStart = "776">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ScoutsBook.AnalyzeImage.AnalyzeImageObject.(getEmotions ((Swift.Optional&lt;Swift.Array&lt;Swift.Dictionary&lt;Swift.String, Swift.AnyObject&gt;&gt;&gt;) -&gt; ()) -&gt; ()).(closure #1)"
+                  moduleName = "ScoutsBook"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Barcenas/Documents/Xcode/Scouting/ScoutsBook/SDK/CognitiveServices/ComputerVision/AnalyzeImage.swift"
+                  timestampString = "502501364.25478"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "407"
+                  endingLineNumber = "407"
+                  offsetFromSymbolStart = "36">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ScoutsBook/SDK/CognitiveServices/ComputerVision/AnalyzeImage.swift"
+            timestampString = "502501350.36924"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "397"
+            endingLineNumber = "397"
+            landmarkName = "getEmotions(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ScoutsBook/SDK/CognitiveServices/ComputerVision/AnalyzeImage.swift"
+            timestampString = "502501351.044135"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "399"
+            endingLineNumber = "399"
+            landmarkName = "getEmotions(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ScoutsBook/SDK/CognitiveServices/ComputerVision/AnalyzeImage.swift"
+            timestampString = "502501352.738962"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "390"
+            endingLineNumber = "390"
+            landmarkName = "getEmotions(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ScoutsBook/SDK/CognitiveServices/ComputerVision/AnalyzeImage.swift"
+            timestampString = "502501415.20054"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "194"
+            endingLineNumber = "194"
+            landmarkName = "analyzeImageWithRequestObject(_:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ScoutsBook/SDK/CognitiveServices/ComputerVision/AnalyzeImage.swift"
+            timestampString = "502501423.032126"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "214"
+            endingLineNumber = "214"
+            landmarkName = "analyzeImageWithRequestObject(_:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ScoutsBook/SDK/CognitiveServices/ComputerVision/AnalyzeImage.swift"
+            timestampString = "502501435.700961"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "244"
+            endingLineNumber = "244"
+            landmarkName = "analyzeImageWithRequestObject(_:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ScoutsBook/SDK/CognitiveServices/ComputerVision/AnalyzeImage.swift"
+            timestampString = "502501443.671122"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "236"
+            endingLineNumber = "236"
+            landmarkName = "analyzeImageWithRequestObject(_:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ScoutsBook/SDK/CognitiveServices/ComputerVision/AnalyzeImage.swift"
+            timestampString = "502501446.064464"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "249"
+            endingLineNumber = "249"
+            landmarkName = "analyzeImageWithRequestObject(_:completion:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
