@@ -83,7 +83,7 @@ class CamaraViewController: UIViewController, UIImagePickerControllerDelegate, U
         let storage = FIRStorage.storage()
         let storageRef = storage.reference(forURL: "gs://imageupload-a4be2.appspot.com")
         
-        let imageData : Data = UIImageJPEGRepresentation(image, 0.4)!
+        let imageData : Data = UIImageJPEGRepresentation(image, 0.7)!
         
         let nombreImagen = "\(Date().timeIntervalSince1970).png"
         
@@ -102,7 +102,7 @@ class CamaraViewController: UIViewController, UIImagePickerControllerDelegate, U
                 let downloadURL = metadata!.downloadURL()!.absoluteString
                 print(downloadURL)
                 self.selectedImageUrl = downloadURL
-                self.analyzeFromURLDidPush(downloadURL)
+                self.analyzeFromURLDidPush(image)
             }
             
         })
@@ -110,15 +110,15 @@ class CamaraViewController: UIViewController, UIImagePickerControllerDelegate, U
         
     }
     
-    func analyzeFromURLDidPush(_ url: String) {
+    func analyzeFromURLDidPush(_ image: UIImage) {
         
         let analyzeImage = CognitiveServices.sharedInstance.analyzeImage
         let visualFeatures: [AnalyzeImage.AnalyzeImageVisualFeatures] = [.Categories, .Description, .Faces]
-        let requestObject: AnalyzeImageRequestObject = (url, visualFeatures)
+        let requestObject: AnalyzeImageRequestObject = (image, visualFeatures)
         
         try! analyzeImage.analyzeImageWithRequestObject(requestObject, completion: { (response) in
             DispatchQueue.main.async(execute: {
-                print(response ?? "No trajo Resultado")
+                print(response?.descriptionText ?? "no hay default")
             })
         })
         

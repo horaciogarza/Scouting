@@ -314,7 +314,6 @@ class AnalyzeImage: NSObject {
                     })
                     
                     self.delegate?.finnishedGeneratingObject(analyzeObject)
-                    
                 })
             }
             
