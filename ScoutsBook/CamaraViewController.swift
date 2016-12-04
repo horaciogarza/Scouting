@@ -125,68 +125,7 @@ class CamaraViewController: UIViewController, UIImagePickerControllerDelegate, U
         
     }
     
-    /*func sendWatsonRequest(_ url: String){
-        
-        let apiKey = "e9b2d83b02a794c8c61219fd956725815d55110a"
-        let version = "2016-11-05" // use today's date for the most recent version
-        let visualRecognition = VisualRecognition(apiKey: apiKey, version: version)
-        
-        var sucess : Bool = false
-        var bestResult : Double = 0.0
-        //var results : String = "Resultados de la imagen\n\n"
-        var results : String = ""
-        //visualRecognition.classify(image: url) { [unowned self] (classifiedImages) in
-            
-            
-//            for classification in classifiedImages.images[0].classifiers[0].classes{
-//                results = results + "This image could be: \(classification.classification) \n probability: \(classification.score*100)% \n\n"
-//                sucess = true
-//                if classification.score*100 > bestResult {
-//                    bestResult = classification.score*100
-//                    self.bestResultString = classification.classification
-//                }
-//            }
-
-            print(results)
-            //lo cambias al main para que se pueda mostrar, si no truena.
-            DispatchQueue.main.async {
-                if sucess {
-                    let alert = FCAlertView()
-                    alert.delegate = self
-                    alert.colorScheme = #colorLiteral(red: 0.3411764801, green: 0.6235294342, blue: 0.1686274558, alpha: 1)
-                    alert.makeAlertTypeSuccess()
-                    alert.firstButtonTitleColor = #colorLiteral(red: 0.3411764801, green: 0.6235294342, blue: 0.1686274558, alpha: 1)
-                    alert.secondButtonTitleColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)
-                    alert.secondButtonBackgroundColor = #colorLiteral(red: 0.9254902005, green: 0.2352941185, blue: 0.1019607857, alpha: 1)
-                    alert.hideDoneButton = true
-                    alert.dismissOnOutsideTouch = false
-                    alert.showAlert(inView: self,
-                                    withTitle: "Image Results",
-                                    withSubtitle: results,
-                                    withCustomImage: nil,
-                                    withDoneButtonTitle: nil,
-                                    andButtons: ["Save", "Don't Save"])
-                }else{
-                
-                    let alert = FCAlertView()
-                    alert.delegate = self
-                    alert.colorScheme = #colorLiteral(red: 0.3411764801, green: 0.6235294342, blue: 0.1686274558, alpha: 1)
-                    alert.firstButtonTitleColor = #colorLiteral(red: 0.3411764801, green: 0.6235294342, blue: 0.1686274558, alpha: 1)
-                    alert.secondButtonTitleColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)
-                    alert.secondButtonBackgroundColor = #colorLiteral(red: 0.9254902005, green: 0.2352941185, blue: 0.1019607857, alpha: 1)
-                    alert.hideDoneButton = true
-                    alert.dismissOnOutsideTouch = false
-                    alert.showAlert(inView: self,
-                                    withTitle: "Unable to identify",
-                                    withSubtitle: "It looks that the image didn't enter any of the categories",
-                                    withCustomImage: #imageLiteral(resourceName: "question-icon-29-2"),
-                                    withDoneButtonTitle: nil,
-                                    andButtons: ["Save", "Don't Save"])
-                }
-            }
-            
-        }*/
-        //
+    
         
     }
     
