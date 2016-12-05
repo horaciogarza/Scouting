@@ -8,7 +8,7 @@
 
 import UIKit
 
-class userProfileViewController: UIViewController {
+class UserProfileViewController: UIViewController {
 
     @IBOutlet var profilePicture: UIImageView!
     @IBOutlet var userName: UILabel!
