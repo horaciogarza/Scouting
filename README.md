@@ -19,7 +19,7 @@ iOS 10
 
 ## Contributors
 
-### Contributors on GitHub
+### Team
 * <img src="https://avatars0.githubusercontent.com/u/6968362?v=3&s=460" width="100"> [Horacio Garza](https://github.com/horaciogarza) - iOS Dev
 
 * <img src="https://avatars0.githubusercontent.com/u/15040866?v=3&s=400" width="100"> [Abraham Barcenas](https://github.com/barcennas) - iOS Dev
