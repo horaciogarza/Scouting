@@ -23,7 +23,7 @@ iOS 10
 * <img src="https://avatars0.githubusercontent.com/u/6968362?v=3&s=460" width="100"> [Horacio Garza](https://github.com/horaciogarza) - iOS Dev
 
 * <img src="https://avatars0.githubusercontent.com/u/15040866?v=3&s=400" width="100"> [Abraham Barcenas](https://github.com/barcennas) - iOS Dev
-* <img src="https://avatars2.githubusercontent.com/u/23421698?v=3&s=400" width="100"> [Kinari Macias](https://github.com/kinarimacias) - Designer/Marketing
+* <img src="https://avatars2.githubusercontent.com/u/23421698?v=3&s=400" width="100"> [Kinari Macias](https://github.com/kinarimacias) - UI Design and Marketing
 
 <!--### Third party libraries
 * see [LIBRARIES](https://github.com/username/appname/blob/master/LIBRARIES.md) files
