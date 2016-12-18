@@ -12,11 +12,9 @@ class UserProfileViewController: UIViewController {
 
     @IBOutlet var profilePicture: UIImageView!
     @IBOutlet var userName: UILabel!
-    
-    @IBOutlet var progress: UILabel!
     @IBOutlet var userLevel: UILabel!
-    @IBOutlet var userToLevel: UILabel!
-    @IBOutlet var totalFind: UILabel!
+    
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -30,15 +28,19 @@ class UserProfileViewController: UIViewController {
     }
 
     
+    
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
+        
+        UINavigationBar.appearance().tintColor = UIColor.white
+        UINavigationBar.appearance().backgroundColor = #colorLiteral(red: 0.3079536855, green: 0.4243280292, blue: 0.7189489007, alpha: 1)
+        
         User.sharedInstance.Name = "Mark Zucaritas"
         userName.text = User.sharedInstance.Name
-        progress.text = "50%"
+        
         userLevel.text = String(User.sharedInstance.Level)
-        userToLevel.text = String(User.sharedInstance.Level + 1)
-        totalFind.text = "100"
+        
     }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -46,14 +48,6 @@ class UserProfileViewController: UIViewController {
     }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
+    
 
 }
