@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4702F06B1E08D54700EEB6DF /* Gotham Rounded Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4702F06A1E08D54700EEB6DF /* Gotham Rounded Bold.otf */; };
+		4702F06D1E08D55100EEB6DF /* Gotham Rounded Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4702F06C1E08D55100EEB6DF /* Gotham Rounded Medium.otf */; };
+		4702F06F1E08D55C00EEB6DF /* Gotham Rounded Book.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4702F06E1E08D55C00EEB6DF /* Gotham Rounded Book.otf */; };
 		47192DAF1DD7CB1400751F94 /* LevelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47192DAE1DD7CB1400751F94 /* LevelViewController.swift */; };
 		47192DB31DD7F53200751F94 /* Levels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47192DB21DD7F53200751F94 /* Levels.swift */; };
 		47192DB71DD81CB800751F94 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47192DB61DD81CB800751F94 /* ProfileViewController.swift */; };
@@ -111,6 +114,9 @@
 
 /* Begin PBXFileReference section */
 		0F9B267C348904BBFCC2154F /* Pods-ScoutsBook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScoutsBook.release.xcconfig"; path = "Pods/Target Support Files/Pods-ScoutsBook/Pods-ScoutsBook.release.xcconfig"; sourceTree = "<group>"; };
+		4702F06A1E08D54700EEB6DF /* Gotham Rounded Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham Rounded Bold.otf"; sourceTree = "<group>"; };
+		4702F06C1E08D55100EEB6DF /* Gotham Rounded Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham Rounded Medium.otf"; sourceTree = "<group>"; };
+		4702F06E1E08D55C00EEB6DF /* Gotham Rounded Book.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham Rounded Book.otf"; sourceTree = "<group>"; };
 		47192DAE1DD7CB1400751F94 /* LevelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LevelViewController.swift; sourceTree = "<group>"; };
 		47192DB21DD7F53200751F94 /* Levels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Levels.swift; path = ../Pods/Levels.swift; sourceTree = "<group>"; };
 		47192DB61DD81CB800751F94 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
@@ -212,7 +218,10 @@
 		47192DB81DD81DC900751F94 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				4702F06A1E08D54700EEB6DF /* Gotham Rounded Bold.otf */,
 				47192DB91DD81E6B00751F94 /* Comfortaa-Regular.ttf */,
+				4702F06E1E08D55C00EEB6DF /* Gotham Rounded Book.otf */,
+				4702F06C1E08D55100EEB6DF /* Gotham Rounded Medium.otf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -456,6 +465,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4702F06F1E08D55C00EEB6DF /* Gotham Rounded Book.otf in Resources */,
+				4702F06B1E08D54700EEB6DF /* Gotham Rounded Bold.otf in Resources */,
+				4702F06D1E08D55100EEB6DF /* Gotham Rounded Medium.otf in Resources */,
 				476959411DD88AE200D05294 /* GoogleService-Info.plist in Resources */,
 				47F1CF261DD791AC0067121E /* LaunchScreen.storyboard in Resources */,
 				47F1CF231DD791AC0067121E /* Assets.xcassets in Resources */,
