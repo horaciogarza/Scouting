@@ -122,22 +122,22 @@
                                 </items>
                             </navigationBar>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="VJ3-Hd-cNI">
-                                <rect key="frame" x="0.0" y="66" width="375" height="333.5"/>
+                                <rect key="frame" x="0.0" y="66" width="375" height="334"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="HW6-TZ-pgM">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="256.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="257"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KOk-K4-kMt">
-                                                <rect key="frame" x="0.0" y="0.0" width="375" height="256.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="257"/>
                                                 <subviews>
                                                     <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" image="12208495_10102454385528521_4749095086285673716_n" translatesAutoresizingMaskIntoConstraints="NO" id="mVP-tA-Ekh">
-                                                        <rect key="frame" x="113" y="30" width="150" height="149.5"/>
+                                                        <rect key="frame" x="113" y="30" width="150" height="150"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" secondItem="mVP-tA-Ekh" secondAttribute="height" multiplier="1:1" id="FDu-8d-xUT"/>
                                                         </constraints>
                                                     </imageView>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mark Zuckerberg" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="09f-9V-UnJ">
-                                                        <rect key="frame" x="0.0" y="187.5" width="375" height="25"/>
+                                                        <rect key="frame" x="0.0" y="188" width="375" height="25"/>
                                                         <fontDescription key="fontDescription" name="GothamRounded-Medium" family="Gotham Rounded" pointSize="25"/>
                                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                         <nil key="highlightedColor"/>
@@ -156,22 +156,22 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JMd-5L-dOA">
-                                        <rect key="frame" x="0.0" y="256.5" width="375" height="77"/>
+                                        <rect key="frame" x="0.0" y="257" width="375" height="77"/>
                                         <subviews>
                                             <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jjC-zW-Aeb">
-                                                <rect key="frame" x="0.0" y="0.0" width="187.5" height="77"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="188" height="77"/>
                                                 <subviews>
                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="rGT-oG-Saz">
-                                                        <rect key="frame" x="0.0" y="17.5" width="187.5" height="42"/>
+                                                        <rect key="frame" x="0.0" y="17" width="188" height="42"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="agF-Fn-67m">
-                                                                <rect key="frame" x="0.0" y="0.0" width="187.5" height="30"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="188" height="30"/>
                                                                 <fontDescription key="fontDescription" name="GothamRounded-Medium" family="Gotham Rounded" pointSize="35"/>
                                                                 <color key="textColor" red="0.95775548229999996" green="0.96079986179999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LEVEL" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K6I-5T-dwX">
-                                                                <rect key="frame" x="0.0" y="30" width="187.5" height="12"/>
+                                                                <rect key="frame" x="0.0" y="30" width="188" height="12"/>
                                                                 <fontDescription key="fontDescription" name="GothamRounded-Medium" family="Gotham Rounded" pointSize="12"/>
                                                                 <color key="textColor" red="0.10980392156862745" green="0.14901960784313725" blue="0.26666666666666666" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <nil key="highlightedColor"/>
@@ -190,19 +190,19 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bzI-Bk-Rel">
-                                                <rect key="frame" x="187.5" y="0.0" width="187.5" height="77"/>
+                                                <rect key="frame" x="188" y="0.0" width="187" height="77"/>
                                                 <subviews>
                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="E2v-Pp-f7t">
-                                                        <rect key="frame" x="0.0" y="15" width="187.5" height="47"/>
+                                                        <rect key="frame" x="0.0" y="15" width="187" height="47"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="124" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mLh-GT-B8F">
-                                                                <rect key="frame" x="0.0" y="0.0" width="187.5" height="30"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="187" height="30"/>
                                                                 <fontDescription key="fontDescription" name="GothamRounded-Medium" family="Gotham Rounded" pointSize="35"/>
                                                                 <color key="textColor" red="0.95775548234464714" green="0.96079986178164345" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="COINS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VuQ-6m-Y5Z">
-                                                                <rect key="frame" x="0.0" y="30" width="187.5" height="17"/>
+                                                                <rect key="frame" x="0.0" y="30" width="187" height="17"/>
                                                                 <fontDescription key="fontDescription" name="GothamRounded-Medium" family="Gotham Rounded" pointSize="12"/>
                                                                 <color key="textColor" red="0.10980392156862745" green="0.14901960784313725" blue="0.26666666666666666" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <nil key="highlightedColor"/>
@@ -252,7 +252,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zsf-oG-gck" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1419" y="-699"/>
+            <point key="canvasLocation" x="2159" y="-631"/>
         </scene>
         <!--Main Tab Bar Controller-->
         <scene sceneID="jm1-TG-PVH">
