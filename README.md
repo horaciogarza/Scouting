@@ -45,5 +45,3 @@ iOS 10
 * e-mail: hhgarza95@gmail.com
 * Twitter: [@horaciogza](https://twitter.com/horaciogza "twitterhandle on twitter")
 
-[![Flattr this git repo](http://api.flattr.com/button/flattr-badge-large.png)](https://flattr.com/submit/auto?user_id=username&url=https://github.com/username/appname&title=appname&language=&tags=github&category=software) 
-
